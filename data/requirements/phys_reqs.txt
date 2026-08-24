@@ -1,0 +1,485 @@
+Course: ASTR021 HM Stars, Planets, and Life: Introduction to Astrobiology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Esin
+Description: This course aims to acquaint the students with the basic concepts of astrobiology, which is the study of the origin, evolution and distribution of life in the universe. We will focus on two questions: How does life begin and evolve? Is there life outside of Earth and, if so, how can it be detected? The topics covered during this semester-long course will include basic orbital mechanics, thermal equilibrium of planets and criteria for habitability, the search for habitable planets outside our Solar System and planetary exploration inside our Solar System, appearance and evolution of organic compounds throughout our Universe leading to the appearance of self-organizing molecules, impact of planetary properties on the possibility of life forming and evolving, and, finally, a review of the common theories concerning the origin of life on Earth.
+
+========================================
+
+Course: ASTR062 HM Introduction to Astrophysics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Esin, Tamayo
+Offered: Spring
+Description: A general survey of modern astrophysics. Topics covered include electromagnetic radiation, gravitation, stellar structure and evolution, the interstellar medium and the birth of stars, supernovae and the death of stars (including the physics of neutron stars and black holes), synthesis of the elements, and the formation, structure and evolution of galaxies and of the universe. Offered jointly with Pomona and Joint Sciences.
+Prerequisite(s): PHYS051 HM
+
+========================================
+
+Course: ASTR101 HM Observational Astronomy
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall
+Description: Complete survey of the techniques of observational astronomy, including optical, infrared, radio and X-ray astronomy. Four to six observational projects, including observations using The Claremont Colleges Table Mountain Observatory, plus computer projects analyzing radio and infrared data. Observational techniques used include CCD photometry, stellar spectroscopy, radio interferometry and analysis of infrared satellite data. In addition to observational techniques, the course will also cover the physics of basic emission mechanisms at the various wavelengths. Offered jointly with Pomona and Joint Sciences.
+Prerequisite(s): ASTR062 HM
+
+========================================
+
+Course: ASTR120 HM Star Formation and the Interstellar Medium
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Offered: Spring, alternate years
+Description: A survey of formation of stars and planets in the universe, the galactic interstellar medium, and the theoretical and observational aspects of understanding the physical state of matter in the galaxy. Topics include formation and detection of extrasolar planets and protostars, radio and infrared diagnostics of star forming regions and interstellar clouds, optical emission and absorption-line studies of the interstellar medium, and the role of supernovae in evolution of the interstellar medium and star formation. Offered jointly with Pomona and Joint Sciences.
+Prerequisite(s): ASTR062 HM and PHYS052 HM
+
+========================================
+
+Course: ASTR121 HM Cosmology and Extragalactic Astrophysics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Offered: Spring, alternate years
+Description: Examines the large-scale structures of the universe and the evolution of the universe from the Big Bang to the present epoch. Topics include alternate cosmologies, dark matter, cosmic background radiation, and formation and evolution of galaxies and clusters of galax­ies. Offered jointly with Pomona and Joint Sciences.
+Prerequisite(s): ASTR062 HM and PHYS052 HM
+
+========================================
+
+Course: ASTR122 HM High Energy Astrophysics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Esin
+Offered: Spring, alternate years
+Description: A survey of the physical processes and astrophysical systems that produce high-energy photons and presents a survey of the new ultraviolet, X-ray, and gamma-ray observations. Topics include active galactic nuclei, black holes, neutron stars, supernova remnants, and cosmic rays. Offered jointly with Pomona and Joint Sciences.
+Prerequisite(s): ASTR062 HM and PHYS052 HM
+
+========================================
+
+Course: ASTR123 HM Stellar Structure and Evolution
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Offered: Spring, alternate years
+Description: A rigorous treatment of stellar atmospheres and radiative transfer. Topics include spectral line formation, stellar energy generation, evolution on and away from the main sequence, and the internal structures of stars and other self-gravitating objects. Offered jointly with Pomona and Joint Sciences.
+Prerequisite(s): ASTR062 HM and PHYS052 HM
+
+========================================
+
+Course: ASTR124 HM Planetary Astrophysics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Offered: Spring, alternate years
+Description: The physics and chemistry of the planets, their natural satellites and the small bodies of the solar system. Topics include evolution and dynamics of planetary atmospheres; planetary interiors, alteration processes on planetary surfaces; the formation and dynamics of the solar system, evolution of small bodies and extra-solar systems. Offered jointly with Pomona and Joint Sciences. Half-course.
+Prerequisite(s): ASTR062 HM
+
+========================================
+
+Course: ASTR125 HM Galactic Astronomy
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Description: A detailed phenomenological investigation of galaxy structure, formation and evolution. We will explore galaxies as both aggregate stellar populations and signposts of cosmic evolution. The course will have a special focus on recent advances in the field. Offered jointly with Pomona and Joint Sciences. Half-course.
+Prerequisite(s): ASTR062 HM
+
+========================================
+
+Course: ASTR128 HM Planetary Dynamics & Earth's Climate History
+----------------------------------------
+Credit(s): 2
+Instructor(s): Tamayo
+Offered: Spring, alternate years
+Description: Emphasis on understanding and modeling how mutual gravitational interactions within planetary systems affect planets' orbits and spins. We will apply these ideas to elucidating long-term variations in Earth's global temperature and length of day, as recorded by fossil and ice core data. This climate record over millions of years provides important context through which to interpret recent global warming and separate human from natural causes. Topics include orbital perturbation theory in the three-body and N-body problem, planetary rotation and oblateness, expansions of non-spherical gravity fields, spin-axis evolution, tides, and frequency analysis of time series data. Week by week, students will work to build up an increasingly sophisticated numerical model for the Solar System's dynamics in Python, tested against analytical solutions in limiting cases.
+Prerequisite(s): CSCI005 HM, MATH073 HM, and PHYS024 HM
+
+========================================
+
+Course: PHYS019 HM Physics on the Edge
+----------------------------------------
+Credit(s): 3
+Instructor(s): Sahakian
+Offered: Fall
+Description: This course is about the conceptual foundations of modern physics. It covers a wide range of examples and concepts that span many sub-disciplines while emphasizing the unity of physics and its fundamental character. It discusses general concepts from Relativity to Quantum Mechanics to Cosmology and Black holes, from superconductivity to the Standard Model of particle physics. The course relies on high school math, while visual interactive simulations replace equations wherever possible, and homework assignments help one explore explicit cases with basic computations. Near the end of the semester, the student chooses a topic from current physics news for presentation.
+Prerequisite(s): HMC first-year students only.
+
+========================================
+
+Course: PHYS023 HM Special Relativity
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Esin, Ilton, Sahakian, Solanki
+Offered: Fall
+Description: Einstein's special theory of relativity is developed from the premises that the laws of physics are the same in all inertial frames and that the speed of light is a constant. The relationship between mass and energy is explored and relativistic collisions analyzed. The families of elementary particles are described and the equivalence principle developed.
+
+========================================
+
+Course: PHYS024 HM Mechanics and Wave Motion
+----------------------------------------
+Credit(s): 4
+Instructor(s): Staff
+Offered: Spring
+Description: Classical mechanics is introduced beginning with inertial frames and the Galilean transformation, followed by momentum and momentum conservation in collisions, Newton's laws of motion, spring forces, gravitational forces and friction. Differential and integral calculus are used extensively throughout. Work, kinetic energy and potential energy are defined, and energy conservation is discussed in particle motion and collisions. Rotational motion is treated, including angular momentum, torque, cross-products and statics. Other topics include an introduction to differential equations presented in the context of mechanics. Simple harmonic and some nonlinear oscillations are discussed, followed by waves on strings, sound and other types of waves, and wave phenomena such as standing waves, beats, two-slit interference, resonance and the Doppler effect.
+
+========================================
+
+Course: PHYS024A HM Mechanics & Wave Motion
+----------------------------------------
+Credit(s): 4
+Instructor(s): Staff
+Offered: Spring
+Description: An advanced college-level introduction to Newtonian mechanics for students who demonstrate on a placement examination that they have solid mechanics problem-solving skills. Starting from the mathematics of vectors in both Cartesian and polar coordinates, Newton's laws of motion are applied to a variety of systems involving point and extended particles, contact forces, friction, drag, springs, gravity, and models of interatomic and intermolecular forces. Angular momentum is developed for individual particles and systems of particles, including rigid bodies, whose combined rotational and translational motion are analyzed. Ideas of wave propagation and interference are developed for sound and strings under tension. A computational approach to solving mechanics problems is developed in parallel using Python and Jupyter notebooks.
+
+========================================
+
+Course: PHYS031 HM What's the Matter?
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gerbode
+Description: Students in this course will examine ordinary objects and discuss what aspects of their composition determine their usefulness. The class will discuss how materials are described, classi­fied, and tested, and look at them from the perspectives of physics, chemistry, materials science, geology, economics, and psychology.
+
+========================================
+
+Course: PHYS032 HM Gravitation
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Connolly, Esin
+Description: The theory and applications of Newtonian gravitation and an introduction to the ideas of gravitation in general relativity. Topics covered include gravitational potentials, orbits and celestial mechanics, tidal forces, atmospheres, Einstein's equivalence principle, black holes, and cosmology. The target audience is students with a strong interest in fundamental physics and the mathematical as well as conceptual underpinnings of gravity and its applications.
+Corequisite(s): PHYS024 HM
+
+========================================
+
+Course: PHYS050 HM Physics Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Staff
+Description: This course emphasizes the evidence-based approach to understanding the physical world through hands-on experience, experimental design, and data analysis. Experiments are drawn from a broad range of physics subjects, with applications relevant to modern society and technology.
+Prerequisite(s): PHYS024 HM
+
+========================================
+
+Course: PHYS051 HM Electromagnetic Theory and Optics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Breznay, Gerbode, Tamayo
+Offered: Fall
+Description: An introduction to electricity and magnetism leading to Maxwell's elec­tromagnetic equations in differential and integral form. Selected topics in classical and quantum optics.
+Prerequisite(s): PHYS023 HM and PHYS024 HM
+Corequisite(s): MATH082 HM or MATH056 HM
+
+========================================
+
+Course: PHYS052 HM Quantum Physics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: The development and formulation of quantum mechanics, and the application of quantum mechanics to topics in atomic, solid state, nuclear, and particle physics.
+Prerequisite(s): PHYS051 HM and (MATH056 HM or MATH082 HM)
+
+========================================
+
+Course: PHYS054 HM Modern Physics Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Eckert, Staff
+Offered: Spring
+Description: Classical experiments of modern physics, including thermal radiation and Rutherford scattering. Nuclear physics experiments, including alpha, beta and gamma absorption, and gamma spectra by pulse height analysis. Analysis of the buildup and decay of radioactive nuclei.
+Corequisite(s): PHYS050 HM and PHYS052 HM
+
+========================================
+
+Course: PHYS064 HM Mathematical and Computational Methods for Physicists
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: This course combines mathematical and computational methods that are useful for studying physical systems. Topics include: Linear algebra, Hilbert spaces, the eigenvalue problem and numerical algorithms for solving problems in linear algebra, including various modes of decomposition; Fourier series and transforms, convolution, correlation and numerical methods using fast Fourier transforms; computer simulation methods based on integrating coupled differential equations and also using pseudorandom numbers, including Monte Carlo methods; partial differential equations, separation of variables, Laplace and Poisson equations in various dimensions, the wave equation, and numerical approaches to solution.
+Prerequisite(s): (CSCI005 HM or CSCI042 HM) and (MATH056 HM or MATH082 HM)
+
+========================================
+
+Course: PHYS080 HM Topics in Physics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Donnelly, Saeta
+Description: An area of physics is studied, together with its applications and social impact. Possible areas include energy and the environment, climate change, and sustainability. Active participation and group activities are stressed.
+Prerequisite(s): PHYS051 HM
+
+========================================
+
+Course: PHYS084 HM Quantum Information
+----------------------------------------
+Credit(s): 3
+Instructor(s): Lynn
+Offered: Spring, alternate years
+Description: Quantum computation and communication. Fundamentals of discrete-state quantum mechanics as appropriate for quantum information science. Possible topics include universal logic gates for quantum computing, quantum computing algorithms, quantum error correction, quantum cryptography and communication, adiabatic quantum computing, and hardware platforms for quantum computation and communication.
+Prerequisite(s): PHYS024 HM, (CSCI005 HM or CSCI005GR HM or CSCI042 HM), and MATH073 HM
+
+========================================
+
+Course: PHYS111 HM Theoretical Mechanics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Tamayo
+Offered: Fall
+Description: The application of mathematical methods to the study of particles and of systems of particles; Newton, Lagrange, and Hamilton equations of motion; conservation theorems; central force motion, collisions, damped oscillators, rigid body dynamics, systems with constraints, variational methods.
+Prerequisite(s): PHYS023 HM, PHYS024 HM, and (MATH082 HM or PHYS064 HM)
+
+========================================
+
+Course: PHYS116 HM Quantum Mechanics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gallicchio
+Offered: Spring
+Description: The elements of nonrelativistic quantum mechanics. Topics include the general formalism, one-dimensional and three-dimensional problems, angular momentum states, perturbation theory and identical particles. Applications to atomic and nuclear systems.
+Prerequisite(s): PHYS052 HM
+
+========================================
+
+Course: PHYS117 HM Statistical Mechanics and Thermodynamics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Esin, Saeta
+Description: Classical and quantum statistical mechanics, including their connection with thermodynamics. Kinetic theory of gases. Applications of these concepts to various physical systems.
+Prerequisite(s): PHYS052 HM
+
+========================================
+
+Course: PHYS133 HM Electronics Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Gallicchio, Staff
+Offered: Fall
+Description: An intermediate laboratory in electronics involving the construction and analysis of rectifiers, filters, transistor and operational amplifier circuits.
+Prerequisite(s): PHYS054 HM
+
+========================================
+
+Course: PHYS134 HM Optics Laboratory
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Offered: Spring
+Description: A laboratory-lecture course on the techniques and theory of classical and modern optics. Topics of study include diffraction, interferometry, Fourier transform spectroscopy, grating spectroscopy, lasers, quantum mechanics and quantum optics, coherence of waves and least-squares fitting of data.
+Prerequisite(s): PHYS051 HM and PHYS054 HM
+
+========================================
+
+Course: PHYS147 HM Material Science of Energy Conversion and Storage
+----------------------------------------
+Credit(s): 2
+Instructor(s): Saeta, Van Ryswyk (Chemistry)
+Description: Materials science of energy conversion and storage, dealing with photovoltaics, fuel cells, batteries, thermoelectrics, and other devices. Seminar format. (Crosslisted as CHEM192 HM and ENGR147 HM)
+Prerequisite(s): CHEM052 HM or PHYS052 HM or ENGR086 HM
+
+========================================
+
+Course: PHYS151 HM Electromagnetic Fields
+----------------------------------------
+Credit(s): 3
+Instructor(s): Saeta
+Offered: Fall
+Description: The theory of static and dynamic electromagnetic fields. Topics include multipole fields, Laplace's equation, the propagation of electromagnetic waves, radiation phenomena and the interaction of the electromagnetic field with matter.
+Prerequisite(s): PHYS051 HM and (PHYS111 HM or PHYS116 HM) and (MATH180 HM or PHYS064 HM)
+
+========================================
+
+Course: PHYS154 HM Fields and Waves
+----------------------------------------
+Credit(s): 3
+Instructor(s): Ilton
+Offered: Spring
+Description: The theory of deformable media. Field equations for elastic and fluid media and for conducting fluids in electromagnetic fields. Particular emphasis on body and surface wave solutions of the field equations.
+Prerequisite(s): MATH180 HM or PHYS064 HM
+
+========================================
+
+Course: PHYS156 HM Foundations of Field Theory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Sahakian
+Offered: Spring
+Description: This course explores concepts, methods, and applications of the classical theory of fields. On the physics side, we will learn about cosmological inflation, superconductivity, electroweak theory, solitons, the nuclear force, and magnetic monopoles. On the mathematics side, we will learn the basics of differential geometry and Lie algebras. Throughout the course, we will emphasize the unity of physical principles and techniques across a wide range of systems and disciplines.
+Prerequisite(s): PHYS111 HM and (MATH180 HM or PHYS064 HM)
+
+========================================
+
+Course: PHYS161 HM Topics in Quantum Theory
+----------------------------------------
+Credit(s): 2
+Instructor(s): Shuve
+Offered: Fall
+Description: Scattering, including the Born approximation and partial wave expansion. Path integrals. Time-dependent perturbation theory. Quantum theory of the electromagnetic field.
+Prerequisite(s): PHYS116 HM
+
+========================================
+
+Course: PHYS162 HM Solid State Physics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Breznay
+Offered: Spring
+Description: Selected topics in solid-state physics, including lattice structure, lattice excitations, and the motion and excitations of electrons in metals.
+Prerequisite(s): PHYS117 HM
+Corequisite(s): PHYS116 HM
+
+========================================
+
+Course: PHYS164 HM Particle Physics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Shuve
+Offered: Spring
+Description: A survey of the forces, particles, and structure of the Standard Model of particle physics. Topics of study include: Feynman diagrams, rates of particle interactions, and particle physics experiments; relativistic quantum mechanics of particles with spin; massive particles and the Higgs mechanism; phenomena of the strong and weak interactions.
+Corequisite(s): PHYS116 HM
+
+========================================
+
+Course: PHYS166 HM Geophysics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Offered: Spring
+Description: Special topics in geophysical methods and their application to construction of earth models.
+Prerequisite(s): PHYS023 HM and PHYS024 HM
+
+========================================
+
+Course: PHYS168 HM Electrodynamics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Eckert
+Offered: Spring
+Description: Selected topics in electrodynamics including wave propagation in material media.
+Prerequisite(s): PHYS151 HM
+
+========================================
+
+Course: PHYS170 HM Computational Methods in Physics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Sahakian
+Offered: Spring
+Description: Advanced techniques in computational physics including high performance computing using parallelization (both CPU- and GPU-based ), machine learning and neural networks, and metaprogramming.
+Prerequisite(s): PHYS052 HM, PHYS064 HM, and PHYS111 HM
+
+========================================
+
+Course: PHYS170X HM Computational Physics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Sahakian
+Description: A modern exposition to the subject of computational physics, drawing examples from various disciplines of physics and the sciences. The first part of this course covers classic algorithms for matrix manipulations, integration and exact numerical differentiation, finding roots and minimization, generating random numbers, Fourier transforms and spectral analysis, optimizing linear and non-linear systems, and Monte Carlo simulations. The second part of the course explores regular and stochastic differential equations, meta-programming and analytical techniques, machine learning techniques such as regressions and classifications, and neural networks. Students will use the Julia programming language throughout, but also explore analytical techniques using Mathematica. (Students may not take both PHYS170  HM and PHYS170X HM.)
+Prerequisite(s): PHYS052 HM, PHYS064 HM, and PHYS111 HM
+
+========================================
+
+Course: PHYS172 HM General Relativity and Cosmology
+----------------------------------------
+Credit(s): 2
+Instructor(s): Sahakian, Shuve, Solanki
+Offered: Spring
+Description: The principle of equivalence, Riemannian geometry, and the Schwarzschild and cosmological solutions of the field equations.
+Prerequisite(s): PHYS111 HM
+
+========================================
+
+Course: PHYS174 HM Biophysics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Gerbode, Ilton
+Offered: Spring
+Description: Selected topics in biophysics focusing on active research in the field. Possible topics include: biolocomotion, membrane biophysics, imaging techniques. Seminar format. (Crosslisted as BIOL174 HM)
+Prerequisite(s): BIOL046 HM and PHYS051 HM
+
+========================================
+
+Course: PHYS178 HM Special Topics in Physics
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Description: The study of an area in physics not covered in other courses, chosen each year at the discretion of the Department of Physics.
+Prerequisite(s): Dependent on topic
+
+========================================
+
+Course: PHYS181 HM Advanced Laboratory
+----------------------------------------
+Credit(s): 2
+Instructor(s): Breznay
+Offered: Fall
+Description: Experiments are selected from the fields of nuclear and solid-state physics, biophysics, quantum mechanics and quantum optics, and atomic, molecular and optical physics. Fast-time coincidence instrumentation and photon-counting detectors are employed, as well as an X-ray machine and a UV/VIS/ NIR spectrophotometer.
+Prerequisite(s): PHYS134 HM
+
+========================================
+
+Course: PHYS183 HM Teaching Internship
+----------------------------------------
+Credit(s): 3
+Instructor(s): Lynn, Saeta
+Offered: Fall and Spring
+Description: An Introduction to K–12 classroom teaching and curriculum development. Internship includes supervision by an appropriate K–12 teacher and a member of the physics department and should result in a report of a laboratory experiment, teaching module, or other education innovation or investigation. Internship includes a minimum of three hours per week of classroom participation.
+Prerequisite(s): EDUC170G CG (or as corequisite by permission of instructor)
+
+========================================
+
+Course: PHYS191 HM Research in Physics
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Original experimental or theoretical investigations in physics undertaken in consultation with a faculty member. Projects may be initiated by the student or by a faculty member. Present faculty research areas include astronomy, atomic and nuclear physics, optics, solid-state and low-temperature physics, general relativity, quantum mechanics, particle physics, geophysics and biophysics.
+
+========================================
+
+Course: PHYS193 HM Physics Clinic
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall
+Description: Team projects in applied physics, with corporate affiliation.
+Prerequisite(s): Seniors only
+
+========================================
+
+Course: PHYS194 HM Physics Clinic
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: Team projects in applied physics, with corporate affiliation.
+Prerequisite(s): Seniors only
+
+========================================
+
+Course: PHYS195 HM Physics Colloquium
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Oral presentations and discussions of selected topics, including recent developments. Participants include physics majors, faculty members, and visiting speakers. Required for all junior and senior physics majors. No more than 2.0 credits can be earned for departmental seminars/col­loquia.
+Grading Type: Pass/No-Pass
+
+========================================
+
+Course: PHYS197 HM Readings in Physics
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Directed reading in selected topics. 1-3 credit hours per semester. Signed form required.
+
+========================================
+
+Course: PHYS199 HM Senior Thesis in Physics
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Original experimental or theoretical investigations in physics undertaken in consultation with a faculty member. Projects may be initiated by the student or by a faculty member. Present faculty research areas include astrophysics, biophysics, optics, solid-state and low-temperature physics, general relativity, quantum mechanics, particle physics, geophysics, and soft matter physics. Students are responsible for an oral presentation on progress and plans in the first half of the thesis research.
+Prerequisite(s): Permission of department. Senior standing.
+
+========================================
+

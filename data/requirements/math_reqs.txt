@@ -1,0 +1,572 @@
+Course: CSMT181 HM Special Topics in Computer Science and Mathematics
+----------------------------------------
+Credit(s): 1.5-3
+Instructor(s): Staff
+Description: A course devoted to exploring topics of current interest. Topics announced prior to registration.
+
+========================================
+
+Course: CSMT183 HM Computer Science and Mathematics Clinic I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall
+Description: Team project in joint computer science and mathematics, with corporate affiliation. CSMT183 HM and CSMT184 HM must be taken consecutively to count toward the major.
+Prerequisite(s): Senior standing as a Joint CS/Math major, or permission of the Computer Science and Mathematics Clinic directors.
+
+========================================
+
+Course: CSMT184 HM Computer Science and Mathematics Clinic II
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff.
+Offered: Spring
+Description: Team project in joint computer science and mathematics, with corporate affiliation. CSMT183 HM and CSMT184  HM must be taken consecutively to count toward the major.
+Prerequisite(s): CSMT183 HM
+
+========================================
+
+Course: MATH019 HM Single and Multivariable Calculus
+----------------------------------------
+Credit(s): 4
+Instructor(s): Staff
+Offered: Fall
+Description: A robust introduction to multivariable calculus together with a comprehensive review of the theory and techniques of differential and integral calculus of a single variable. Topics include limits, continuity, derivatives, definite integrals, infinite series, Taylor approximations, vectors, equations of lines and planes, partial derivatives, double and triple integrals, linear approximations, the gradient, directional derivatives and the Jacobian, optimization and the second derivative test, higher-order derivatives, vector fields, curl, divergence, path integrals, Green's theorem, flux and surface integrals, Stokes and Gauss Theorems.
+
+========================================
+
+Course: MATH021 HM Mathematics of Games and Puzzles
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Benjamin
+Offered: Fall
+Description: Using simple mathematical tools, many popular games and puzzles can be analyzed, leading to improved performance and a more enjoyable experience. In this class we will derive probabilities, expected values and optimal strategies for games like roulette, craps, blackjack, backgammon, and poker. The theory of zero sum games will be introduced, along with optimal wagering strategies. We will also explore solution methods for classic puzzles like Lights Out, Sudoku, and Rubik's Cube. Half-semester course.
+Prerequisite(s): Harvey Mudd College first-year students only.
+
+========================================
+
+Course: MATH055 HM Discrete Mathematics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Benjamin, Lindo, Martonosi, Orrison, Su, Vindas Meléndez
+Offered: Fall and Spring
+Description: Topics include combinatorics (clever ways of counting things), number theory, and graph theory with an emphasis on creative problem solving and learning to read and write rigorous proofs. Possible applications include probability, analysis of algorithms, and cryptography.
+Corequisite(s): MATH073 HM
+
+========================================
+
+Course: MATH055A HM Topics in Discrete Mathematics
+----------------------------------------
+Credit(s): 1
+Instructor(s): Benjamin
+Description: Topics include combinatorics (clever ways of counting things), number theory, and graph theory with an emphasis on creative problem solving and learning to read and write rigorous proofs. Possible applications include probability, analysis of algorithms, and cryptography.
+Prerequisite(s): By permission only
+
+========================================
+
+Course: MATH056 HM Data, Probability, and Statistics for Engineers
+----------------------------------------
+Credit(s): 3
+Instructor(s): L. Zinn-Brooks
+Offered: Fall and Spring
+Description: An introduction to working with data, probability, and statistics, with applications to engineering, computer science, and physics. Topics include conditional probability, probability distribution, probabilistic and stochastic models, hypothesis testing, Chi-square goodness of fit, and regression analysis. Statistical software will be used to work with data and to implement statistical tests.
+Prerequisite(s): MATH019 HM and MATH073 HM. Fall offerings of MATH056  HM have additional pre/corequisite of ENGR004 HM.
+
+========================================
+
+Course: MATH062 HM Introduction to Probability and Statistics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Haddock, Li, Martonosi, Williams
+Offered: Spring
+Description: Sample spaces, events, axioms for probabilities; conditional probabilities and Bayes' theorem; random variables and their distributions, discrete and continuous; expected values, means and variances; covariance and correlation; law of large numbers and central limit theorem; point and interval estima­tion; hypothesis testing; simple linear regression; applications to analyzing real data sets. Possible additional topics include ANOVA, multiple regression, and logistic regression.
+Prerequisite(s): MATH019 HM
+Corequisite(s): MATH073 HM
+
+========================================
+
+Course: MATH073 HM Linear Algebra
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: Theory and applications of linearity, including vectors, matrices, systems of linear equations, dot and cross products, determinants, linear transformations in Euclidean space, linear independence, bases, eigenvalues, eigenvectors, and diagonalization. General vector spaces and linear transformations; change of basis and similarity. Additional Topics.
+Prerequisite(s): MATH019 HM or equivalent
+
+========================================
+
+Course: MATH082 HM Differential Equations
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall
+Description: Modeling physical systems, first-order ordinary differential equations, existence, uniqueness, and long-term behavior of solutions; bifurcations; approximate solutions; second-order ordinary differential equations and their properties, applications; first-order systems of ordinary differential equations. Applications to linear systems of ordinary differential equations, matrix exponential; nonlinear systems of differential equations; equilibrium points and their stability. Additional topics.
+Prerequisite(s): (MATH019 HM and MATH073 HM) or equivalent
+
+========================================
+
+Course: MATH092 HM Mathematical Contest in Modeling/Interdisciplinary Contest in Modeling Seminar
+----------------------------------------
+Credit(s): 1
+Instructor(s): Haddock, Martonosi
+Offered: Fall
+Description: This seminar meets one evening per week during which students solve and present solutions to challenging mathematical problems in preparation for the Mathematical Contest in Modeling (MCM) and Interdisciplinary Contest in Modeling (ICM), an international undergraduate mathematics competition. This course is not eligible for major elective credit in the HMC mathematics major.
+
+========================================
+
+Course: MATH093 HM Putnam Seminar
+----------------------------------------
+Credit(s): 1
+Instructor(s): Su
+Offered: Fall
+Description: This seminar meets one evening per week during which students solve and present solutions to challenging mathematical problems in preparation for the William Lowell Putnam Mathematics Competition, a national undergraduate mathematics contest. This course is not eligible for major elective credit in the HMC mathematics major.
+Grading Type: Pass/No-Pass
+
+========================================
+
+Course: MATH094 HM Problem Solving Seminar
+----------------------------------------
+Credit(s): 1
+Instructor(s): Staff
+Offered: Spring
+Description: This seminar meets one evening per week during which students solve and present solutions to problems posed in mathematics journals, such as the American Mathematical Monthly. Solutions are submitted to these journals for potential publication.
+Grading Type: Pass/No-Pass
+
+========================================
+
+Course: MATH104 HM Graph Theory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Martonosi, Orrison, Vindas Meléndez
+Offered: Alternate years
+Description: An introduction to graph theory with applications. Theory and applications of trees, matchings, graph coloring, planarity, graph algorithms, and other topics.
+Prerequisite(s): MATH073 HM and MATH055 HM
+
+========================================
+
+Course: MATH106 HM Combinatorics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Benjamin, Vindas Meléndez
+Offered: Alternate years
+Description: An introduction to the techniques and ideas of combinatorics, including counting methods, Stirling numbers, Catalan numbers, generating functions, Ramsey theory, and partially ordered sets.
+Prerequisite(s): MATH055 HM
+
+========================================
+
+Course: MATH119 HM Advanced Mathematical Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Adolph (Biology), de Pillis, Jacobsen, H. Zinn Brooks
+Description: Further study of mathematical models of biological processes, including discrete and continuous models. Examples are drawn from a variety of areas of biology, which may include physiology, systems biology, cancer biology, epidemiology, ecology, evolution, and spatiotemporal dynamics. (Crosslisted as BIOL119 HM)
+Prerequisite(s): MCBI118A HM
+
+========================================
+
+Course: MATH127 HM Mathematical Methods in Data Science
+----------------------------------------
+Credit(s): 3
+Instructor(s): Haddock
+Offered: Fall
+Description: In this course, students will learn about common mathematical representations of data, the mathematical foundations of matrix factorization and tensor decomposition, and their application to many tasks in machine learning and data science. These decomposition techniques are integral tools in studying large-scale and multi-modal data and form the basis for many approaches to the topic modeling, dimension reduction, and clustering tasks. Potential topics include PCA, nonnegative matrix factorization, higher-order SVD, nonnegative tensor decompositions, K-means clustering, optimization techniques for these models, and applications in machine learning, data science, signal processing, and network science.
+Prerequisite(s): MATH019 HM (or equivalent course in multivariable calculus) and MATH073 HM (or equivalent course in linear algebra). MATH062 HM (or equivalent course in probability) is recommended but not required.
+
+========================================
+
+Course: MATH131 HM Mathematical Analysis I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Castro, de Pillis, Karp, Su, H. Zinn Brooks
+Offered: Jointly; Fall semester at HMC and Pomona, Spring semester at HMC and CMC
+Description: This course is a rigorous analysis of the real numbers and an introduction to writing and communicating mathematics well. Topics include properties of the rational and the real number fields, the least upper bound property, induction, countable sets, metric spaces, limit points, compactness, connectedness, careful treatment of sequences and series, functions, differentiation and the mean value theorem, and an introduction to sequences of functions. Additional topics as time permits.
+Prerequisite(s): MATH055 HM
+
+========================================
+
+Course: MATH132 HM Mathematical Analysis II
+----------------------------------------
+Credit(s): 3
+Instructor(s): Castro, Su, H. Zinn Brooks
+Offered: Jointly; Fall semester at HMC, Spring semester at Pomona
+Description: A rigorous study of calculus in Euclidean spaces including multiple Riemann integrals, derivatives of transformations, and the inverse function theorem.
+Prerequisite(s): MATH131 HM
+
+========================================
+
+Course: MATH136 HM Complex Variables and Integral Transforms
+----------------------------------------
+Credit(s): 3
+Instructor(s): Castro, Jacobsen, Karp, Yong
+Offered: Fall
+Description: Complex differentiation, Cauchy-Riemann equations, Cauchy integral formulas, residue theory, Taylor and Laurent expansions, conformal mapping, Fourier and Laplace transforms, inversion formulas, other integral transforms, applications to solutions of partial differential equations.
+Prerequisite(s): MATH073 HM and MATH082 HM
+
+========================================
+
+Course: MATH137 HM Graduate Analysis I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Castro, Staff (Pomona), Staff (CMC)
+Offered: Fall
+Description: Abstract Measures, Lebesgue measure, and Lebesgue-Stieltjes measures on R; Lebesgue integral and limit theorems; product measures and the Fubini theorem; additional topics. (Crosslisted as MATH331 CG)
+Prerequisite(s): MATH132 HM
+
+========================================
+
+Course: MATH138 HM Graduate Analysis II
+----------------------------------------
+Credit(s): 3
+Instructor(s): Castro, Staff (Pomona), Staff (CMC)
+Offered: Spring
+Description: Banach and Hilbert spaces; Lp spaces; complex measures and the Radon-Nikodym theorem. (Crosslisted as MATH332 CG)
+Prerequisite(s): MATH137 HM or MATH331 CG
+
+========================================
+
+Course: MATH142 HM Differential Geometry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gu, Karp, Staff (Pitzer)
+Offered: Fall
+Description: Curves and surfaces, Gauss curvature; isometries, tensor analy­sis, covariant differentiation with application to physics and geometry (intended for majors in physics or mathematics).
+Prerequisite(s): MATH073 HM and MATH082 HM
+
+========================================
+
+Course: MATH143 HM Seminar in Differential Geometry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gu
+Offered: Spring
+Description: Selected topics in Riemannian geometry, low dimensional manifold theory, elementary Lie groups and Lie algebra, and contemporary applications in mathematics and physics.
+Prerequisite(s): MATH131 HM and MATH142 HM; MATH147 HM recommended
+
+========================================
+
+Course: MATH147 HM Topology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Karp, Su, Staff (Pomona)
+Offered: Jointly with Pomona; Spring semester
+Description: Topology is the study of properties of objects pre­served by continuous deformations (much like geometry is the study of properties preserved by rigid motions). Hence, topology is sometimes called "rubber-sheet" geometry. This course is an introduction to point-set topology with additional topics chosen from geometric and algebraic topology. It will cover topological spaces, metric spaces, product spaces, quotient spaces, Hausdorff spaces, compactness, connectedness, and path connectedness. Additional topics will be chosen from metrization theorems, fundamental groups, homotopy of maps, covering spaces, the Jordan curve theorem, classification of surfaces, and simplicial homology.
+Prerequisite(s): MATH131 HM
+
+========================================
+
+Course: MATH152 HM Statistical Theory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Li, Martonosi, Williams, Staff (Pomona), Staff (CMC)
+Offered: Jointly; Spring semester at Pomona and CMC
+Description: An introduction to the general theory of statistical inference, including estimation of parameters, confidence intervals, and tests of hypotheses.
+Prerequisite(s): MATH 157 HM
+
+========================================
+
+Course: MATH153 HM Bayesian Statistics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Williams
+Offered: Spring, alternate years
+Description: An introduction to principles of data analysis and advanced statistical modeling using Bayesian inference. Topics include a combination of Bayesian principles and advanced methods; general, conjugate and noninformative priors, posteriors, credible intervals, Markov Chain Monte Carlo methods, and hierarchical models. The emphasis throughout is on the application of Bayesian thinking to problems in data analysis. Statistical software will be used as a tool to implement many of the techniques.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: MATH155 HM Time Series
+----------------------------------------
+Credit(s): 3
+Instructor(s): Williams
+Offered: Spring, alternate years
+Description: An introduction to the theory of statistical time series. Topics include decomposi­tion of time series, seasonal models, forecasting models including causal models, trend models, and smoothing models, autoregressive (AR), moving average (MA), and integrated (ARIMA) forecasting models. Time permitting, we will also discuss state space models, which include Markov processes and hidden Markov processes, and derive the famous Kalman filter, which is a recursive algorithm to compute predictions. Statistical software will be used as a tool to aid calculations required for many of the techniques.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: MATH156 HM Stochastic Processes
+----------------------------------------
+Credit(s): 3
+Instructor(s): Benjamin, Martonosi, Staff (CMC)
+Offered: Jointly; Fall, alternate years at HMC
+Description: This course is particularly well-suited for those wanting to see how probability theory can be applied to the study of random phenomena in fields such as engineering, management science, the physical and social sciences, and opera­tions research. Topics include conditional expectation, Markov chains, Poisson processes, and queuing theory. Additional applications chosen from such topics as reliability theory, Brownian motion, finance and asset pricing, inventory theory, dynamic programming, and simulation.
+Prerequisite(s): MATH073 HM and MATH157 HM
+
+========================================
+
+Course: MATH157 HM Intermediate Probability
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Benjamin, Haddock, Li, Martonosi, Su, Williams
+Offered: Fall
+Description: Continuous random variables, distribution functions, joint density functions, marginal and conditional distributions, functions of random variables, conditional expectation, covariance and correlation, moment generating functions, law of large numbers, Chebyshev's theorem, and central-limit theorem.
+Prerequisite(s): BIOL154 HM or MATH062 HM or PHYS052 HM
+
+========================================
+
+Course: MATH158 HM Statistical Linear Models
+----------------------------------------
+Credit(s): 3
+Instructor(s): Li, Martonosi, Williams, Staff (Pomona)
+Offered: Fall, alternate years
+Description: An introduction to linear regression including simple linear regression, multiple regression, variable selection, stepwise regression and analysis of residual plots and analysis of variance including one-way and two-way fixed effects ANOVA. Emphasis will be on both methods and applications to data. Statistical software will be used to analyze data.
+Prerequisite(s): MATH062 HM and MATH073 HM
+
+========================================
+
+Course: MATH164 HM Scientific Computing
+----------------------------------------
+Credit(s): 3
+Instructor(s): de Pillis, Haddock, Sanchez, Yong
+Description: Computational techniques applied to problems in the sciences and engineering. Modeling of physical problems, computer implementation, analysis of results; use of mathematical software; numerical methods chosen from: solutions of linear and nonlinear algebraic equations, solutions of ordinary and partial differential equations, finite elements, linear programming, optimization algorithms, and fast-Fourier transforms. (Crosslisted as CSCI144 HM)
+Prerequisite(s): MATH073 HM, MATH082 HM, and CSCI060 HM
+
+========================================
+
+Course: MATH165 HM Numerical Analysis
+----------------------------------------
+Credit(s): 3
+Instructor(s): Haddock, de Pillis, Yong
+Offered: Fall
+Description: An introduction to the analysis and computer implementation of basic numerical techniques. Solution of linear equations, eigenvalue prob­lems, local and global methods for nonlinear equations, interpolation, approximate integra­tion (quadrature), and numerical solutions to ordinary differential equations.
+Prerequisite(s): MATH073 HM and MATH082 HM
+
+========================================
+
+Course: MATH167 HM Complexity Theory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff (Pomona)
+Offered: Fall
+Description: Brief review of computability theory, followed by a rigorous treatment of complexity theory. The complexity classes P, NP, and the Cook-Levin Theorem. Approximability of NP-complete problems. The polynomial hierarchy, PSPACE-completeness, L and NL-completeness, #P-completeness. IP and Zero-knowledge proofs. Randomized and parallel complexity classes. The speedup, hierarchy, and gap theorems. (Crosslisted as CSCI142 HM)
+Prerequisite(s): (CSCI060 HM or CSCI042 HM) and MATH055 HM
+
+========================================
+
+Course: MATH168 HM Algorithms
+----------------------------------------
+Credit(s): 3
+Instructor(s): Boerkoel (Computer Science), Montañez (Computer Science), Schofield (Computer Science), Stone (Computer Science)
+Offered: Fall and Spring
+Description: Algorithm design, computer implementation, and analysis of efficiency. Discrete structures, sorting and searching, time and space complexity, and topics selected from algorithms for arithmetic circuits, sorting networks, parallel algorithms, computational geometry, parsing and pattern-matching. (Crosslisted as CSCI140 HM)
+Prerequisite(s): ((CSCI070 HM and (MATH055 HM/CM/PZ/SC) and (MATH019 HM or MATH032  CM/PO/PZ/SC or MATH032S PO or MATH067 PO) and (MATH073 HM or MATH060  CM/PO/PZ/SC or MATH060C CM)) or ((CSCI060 HM or CSCI042 HM) and MATH131 HM)) or (CSCI062 PO and CSCI054  PO). CSCI081 HM is recommended.
+
+========================================
+
+Course: MATH171 HM Abstract Algebra I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Karp, Lindo, Orrison, Staff (CMC), Staff (Pomona)
+Offered: Jointly; Fall semester at HMC and CMC, Spring semester at HMC and Pomona
+Description: Groups, rings, fields, and additional topics. Topics in group theory include groups, subgroups, quotient groups, Lagrange's theorem, symmetry groups, and the isomorphism theorems. Topics in Ring theory include Euclidean domains, PIDs, UFDs, fields, polynomial rings, ideal theory, and the isomorphism theorems. In recent years, additional topics have included the Sylow theorems, group actions, modules, representations, and introductory category theory.
+Prerequisite(s): MATH073 HM and MATH055 HM
+
+========================================
+
+Course: MATH172 HM Abstract Algebra II: Galois Theory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Karp, Orrison, Su, Staff (Pomona)
+Offered: Jointly; Spring semester at HMC and Pomona
+Description: The topics covered will include polynomial rings, field extensions, classical constructions, splitting fields, algebraic closure, separability, Fundamental Theorem of Galois Theory, Galois groups of polynomials, and solvability.
+Prerequisite(s): MATH171 HM
+
+========================================
+
+Course: MATH173 HM Advanced Linear Algebra
+----------------------------------------
+Credit(s): 3
+Instructor(s): de Pillis, Gu, Haddock, Orrison
+Offered: Jointly in alternate years
+Description: Topics from among the following: Similarity of matrices and the Jordan form, the Cayley-Hamilton theorem, limits of sequences and series of matrices; the Perron-Frobenius theory of nonnegative matrices, estimating eigenvalues of matrices; stability of systems of linear differential equations and Lyapunov's Theorem; iterative solutions of large systems of linear algebraic equations.
+Prerequisite(s): MATH131 HM
+
+========================================
+
+Course: MATH174 HM Abstract Algebra II: Representation Theory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Karp, Lindo, Orrison, Su, Vindas Meléndez
+Offered: Jointly; Spring semester at HMC and Pomona
+Description: The topics covered will include group rings, characters, orthogonality relations, induced representations, applications of representation theory, and other select topics from module theory.
+Prerequisite(s): MATH171 HM
+
+========================================
+
+Course: MATH175 HM Number Theory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Benjamin, Staff (Scripps)
+Offered: Spring; offered jointly Fall semester at Scripps
+Description: Properties of integers, congruences, Diophantine problems, quadratic reciprocity, number theoretic functions, primes.
+Prerequisite(s): MATH055 HM
+
+========================================
+
+Course: MATH176 HM Algebraic Geometry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Karp, Lindo
+Offered: Fall, alternate years
+Description: Topics include affine and projective varieties, the Nullstellensatz, rational maps and morphisms, birational geometry, tangent spaces, nonsingularity and intersection theory. Additional topics may be included depending on the interest and pace of the class.
+Prerequisite(s): MATH171 HM; Previous courses in Analysis, Galois Theory, Differential Geometry, and Topology are recommended
+
+========================================
+
+Course: MATH178 HM Nonlinear Data Analytics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gu
+Offered: Fall
+Description: Analysis of nonlinear large dynamic data including but not limited from automobiles, cell phones, robots, and unmanned aerial vehicles (UAVs). Visualization of such data using geometric methods, followed by representation in certain configuration spaces to capture the intrinsic non-linear relationship in the data. (For example, UAVs' data, including accelerometer and gyroscope data, obeys nonlinear kinematics and dynamics relationships, a curved 3-D sphere S3 can capture their rotations when we use unit quaternion representations. A traditional statistical correlation matrix cannot capture those nonlinear relations since a correlation matrix only captures linear relationships in the data.) Advanced geometric data analysis techniques including nonlinear Riemannian (non-Euclidean) distances for modeling such big data problems (as used for building a cost function). We will also demonstrate how to perform optimization techniques on curved configuration spaces by extending optimization methods such as gradient descent and Newton's method to such curved spaces. Application of learned techniques to solve real world problems involving big nonlinear dynamic data.
+Prerequisite(s): CSCI070 HM and (CSCI140 HM or MATH131 HM or MATH157 HM or MATH168 HM)
+
+========================================
+
+Course: MATH179 HM Mathematics of Big Data
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gu
+Offered: Fall
+Description: This is a course in how to utilize data: infer, predict, coerce, and classify. The course covers a large breadth of material, spanning supervised and unsupervised learning, recommender systems, and Bayesian modeling, to a high level of mathematical rigor. Students will learn how to use mathematical techniques to process big raw data including data indexing, visualization, structuring, representing, and reducing data dimension. Upon successful completion of the course, students should be equipped to enter industry as a data scientist, read active research in the field of machine learning, and approach huge (data and otherwise) problems seen in the real world. Students will become comfortable using GitHub basic tools for use in developing and deploying models.
+Prerequisite(s): CSCI005 HM and (MATH019 HM or MATH032  CM/PO/PZ/SC) and (MATH073 HM or MATH060  CM/PO/PZ/SC)
+
+========================================
+
+Course: MATH180 HM Introduction to Partial Differential Equations
+----------------------------------------
+Credit(s): 3
+Instructor(s): Jacobsen, H. Zinn Brooks
+Offered: Fall
+Description: Partial Differential Equations (PDEs) including the heat equation, wave equation, and Laplace's equation; existence and uniqueness of solutions to PDEs via the maximum principle and energy methods; method of characteristics; Fourier series; Fourier transforms and Green's functions; Separation of variables; Sturm-Liouville theory and orthogonal expansions; Bessel functions.
+Prerequisite(s): MATH082 HM and MATH131 HM
+
+========================================
+
+Course: MATH181 HM Dynamical Systems
+----------------------------------------
+Credit(s): 3
+Instructor(s): Jacobsen, H. Zinn Brooks
+Offered: Jointly; Fall semester at Pomona, Spring semester at HMC in alternate years
+Description: Existence and uniqueness theorems for systems of differential equations, dependence on data, linear systems, fundamental matrices, asymptotic behavior of solutions, stability theory, and other selected topics, as time permits.
+Prerequisite(s): MATH082 HM
+Corequisite(s): MATH131 HM
+
+========================================
+
+Course: MATH184 HM Graduate Partial Differential Equations
+----------------------------------------
+Credit(s): 3
+Instructor(s): Castro, Jacobsen
+Offered: Spring, alternate years
+Description: Advanced topics in the study of linear and nonlinear partial differential equations. Topics may include the theory of distributions; Hilbert spaces; conservation laws, characteristics and entropy methods; fixed point theory; critical point theory; the calculus of variations and numerical methods. Applications to fluid mechanics, mathematical physics, mathematical biology, and related fields.
+Prerequisite(s): MATH180 HM; recommended MATH132 HM
+
+========================================
+
+Course: MATH187 HM Operations Research
+----------------------------------------
+Credit(s): 3
+Instructor(s): Benjamin, Martonosi, Staff (CMC), Staff (Pomona)
+Offered: Fall
+Description: Linear, integer, nonlinear and dynamic programming, classical optimization problems, and network theory. (Crosslisted as ENGR187 HM)
+Prerequisite(s): MATH073 HM
+
+========================================
+
+Course: MATH188 HM Social Choice and Decision Making
+----------------------------------------
+Credit(s): 3
+Instructor(s): Su
+Offered: Spring, alternate years
+Description: Basic concepts of game theory and social choice theory, representations of games, Nash equilibria, utility theory, non-cooperative games, cooperative games, voting games, paradoxes, Arrow's impossibility theorem, Shapley value, power indices, "fair division" problems and applications.
+Corequisite(s): MATH055 HM recommended
+
+========================================
+
+Course: MATH189 HM Special Topics in Mathematics
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Description: A course devoted to exploring topics of current interest to faculty or students. Recent topics have included: Commutative Algebra, Convexity, Finite Fourier Analysis, Numerical Linear Algebra, and Mathematics of Big Data.
+Prerequisite(s): Dependent on topic
+
+========================================
+
+Course: MATH193 HM Mathematics Clinic
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: The Clinic Program brings together teams of students to work on a research problem sponsored by business, industry, or government. Teams work closely with a faculty advisor and a liaison provided by the sponsoring organization to solve complex, real-world problems using mathematical and computational methods. Students are expected to present their work orally and to produce a final report conforming to the publication standards of a professional mathematician. Students are expected to take the two semesters of Clinic within a single academic year.
+Prerequisite(s): Senior standing as a mathematics major or permission of the Mathematics Clinic director.
+
+========================================
+
+Course: MATH196 HM Independent Study in Mathematics
+----------------------------------------
+Credit(s): 0.5-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Readings in special topics.
+Prerequisite(s): Permission of department or instructor
+
+========================================
+
+Course: MATH197 HM Senior Thesis in Mathematics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Senior thesis offers the student, guided by the faculty advisor, a chance to experience a taste of the life of a professional research mathematician. The work is largely independent with guidance from the research advisor. The principal objective of the senior thesis program is to help you develop intellectually and improve your written and verbal communication skills. Students are expected to present their work orally and to produce a thesis conforming to the publication standards of a professional mathematician.
+Prerequisite(s): Senior standing as a mathematics major and permission from the Mathematics Senior Thesis Coordinator.
+
+========================================
+
+Course: MATH198 HM Undergraduate Mathematics Forum
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Castro, Jacobsen, Karp, Lindo, Orrison, Williams, H. Zinn Brooks
+Offered: Fall and Spring
+Description: The goal of this course is to improve students' ability to communicate mathematics, both to a general and technical audience. Students will present material on assigned topics and have their presentations evaluated by students and faculty. This format simultaneously exposes students to a broad range of topics from modern and classical mathematics.
+
+========================================
+
+Course: MCBI117 HM Game Theory and the Evolution of Cooperation
+----------------------------------------
+Credit(s): 3
+Instructor(s): Donaldson-Matasci (Biology)
+Description: An introduction to game theory, a branch of mathematics that studies strategic interactions between individuals, with applications in fields such as biology, economics and political science. The course will introduce classical game theory, representations of games and Nash equilibria. The second part of the course will focus on evolutionary game theory, equilibrium concepts, and the evolution of cooperation.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: MCBI118A HM Introduction to Mathematical Biology
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Adolph (Biology), de Pillis (Mathematics), Donaldson-Matasci (Biology)
+Offered: Spring
+Description: An introduction to the field of mathematical biology. Continuous and discrete mathematical models of biological processes and their analytical and computational solutions. Examples may include models in epidemiology, ecology, cancer biology, systems biology, molecular evolution, and phylogenetics.
+Prerequisite(s): MATH073 HM, MATH082 HM, and BIOL046 HM
+
+========================================
+
+Course: MCBI118B HM Introduction to Computational Biology
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Bush (Biology), Donaldson-Matasci (Biology)
+Offered: Spring
+Description: An introduction to the field of computational biology. Algorithms for phylogenetic inference and computational methods for solving problems in molecular evolution and population genetics.
+Prerequisite(s): CSCI005 HM and BIOL046 HM
+
+========================================
+
+Course: MCBI199 HM Joint Colloquium for the Mathematical and Computational Biology Major
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Students registered for joint colloquium must attend a fixed number of colloquium talks during the semester in any field(s) related to their interests. The talks may be at any members of The Claremont Colleges or a nearby university and may be in any of a wide array of fields including biology, mathematics, computer science and other science and engineering disciplines including bioengineering, cognitive science, neuroscience, biophysics, and linguistics. Students enrolled in the joint colloquium are required to submit a short synopsis of each talk that they attend. No more than 2.0 credits can be earned for departmental seminars/col­loquia.
+Grading Type: Pass/No-Pass
+
+========================================
+

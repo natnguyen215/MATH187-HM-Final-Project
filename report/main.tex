@@ -1,0 +1,699 @@
+%\documentclass[11pt]{hmcpset}
+\documentclass[12pt]{article}
+\usepackage[margin=1in,top=1in]{geometry}
+\usepackage{graphicx}  % Required for inserting images
+\usepackage{tcolorbox}  % Required for problem statement boxes
+\usepackage[calc,sets,vectors,phys,misc,LinAlg,quantum,geo]{shortmath}
+%\usepackage[symbol]{footmisc}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{ulem}
+\usepackage{array}
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true
+}
+
+\makeatletter
+\@addtoreset{section}{part}
+\makeatother
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\newcommand{\ang}{\mathring{\mathrm{A}}}
+
+\newtcolorbox[]{problem}[1][]{title=#1}
+\newenvironment{solution}[1][]{\def\myVar{#1}}{\hfill{\myVar}\bigskip}
+\newenvironment{solution*}{}{}
+\newtcolorbox[]{codefile}[1][]{title=#1}
+
+\usepackage{enumitem}
+\setlist[enumerate,1]{label=(\alph*)}
+
+\renewcommand{\S}{\mathcal{S}}
+\renewcommand{\R}{\mathcal{R}}
+\renewcommand{\C}{\mathcal{C}}
+\newcommand{\G}{\mathcal{G}}
+
+\title{Optimal Degree Path Planning}
+\date{November 19, 2025}
+\author{HMCOR (Nathan Nguyen, Cole Plepel, and Joshua Zhong)}
+
+\begin{document}
+
+\maketitle
+
+\iffalse
+\begin{enumerate}
+    \item \textbf{Pre/Co-Requisite structures}
+    \item Which courses were offered in which of the last 4-8 semesters (Can be obtained from Hyperschedule)
+    \item Number of credits (Can be obtained from Hyperschedule)
+    \item Maximum number of repetitions (???)
+    \item HMC Departmental HSA status (Can be obtained from Hyperschedule)
+    \item 5C HSA status (Can be obtained from Hyperschedule)
+    \item Core/Graduation requirement status (Can be obtained from the Student Handbook)
+    \item Major requirement status (Can be obtained from the Student Handbook)
+\end{enumerate}
+
+\begin{verbatim}
+set Courses;  # A subset of requirements
+set Semesters;
+set Requirements;
+set GradRequirements;  # A subset of Requirements
+
+param prereqCourse{Courses, Requirements} binary;
+param coreqCourse{Courses, Requirements} binary;
+param coreqGroup{Requirements, Requirements} binary;
+param reqCount{Requirements} >= 0;
+param interest{Courses};
+param credits{Courses};
+param minSemesterCredits >= 0;
+param maxSemesterCredits >= 0;
+param highSemesterCredits >= 0; # number of non-overloaded credits considered "high" (15?)
+param minGradCredits >= 0;
+param isOffered{Courses, Semesters} binary;  # only allow core courses in the proper semesters
+param creditPenalty >= 0; # amount of objective function penalty incurred for each "high" credit (over 15)
+param fragilityPenalty >= 0;
+
+var takeCourse{Courses, Semesters};
+var satisfied{Requirements, Semesters};
+var isHighCredits{Semesters};
+
+maximize Total_Interest:
+    sum {s in Semesters, c in Courses} interest[c] * takeCourse[c, s]
+    - sum{s in Semesters} (isHighCredits[s] * creditPenalty)
+    + fragilityPenalty * sum{?} ?;  # to be filled in
+
+subject to Satisfaction{r in Requirements, s in Semesters}: # maybe there's a better name for this...
+    reqCount[r] * satisfied[r, s] <=
+        sum{rr in Requirements, rr != r} (coreqGroup[r,rr] * satisfied[rr, s]) +  # Boolean logic
+        sum{c in Courses} (prereqCourse[r, c] * credits[c] * sum{ss in Semesters, ss < s} takeCourse[c, ss]) +  # Prerequisite courses
+        sum{c in Courses} (coreqCourse[r, c] * credits[c] * sum{ss in Semesters, ss <= s} takeCourse[c, ss]) +  # Corequisite courses
+        reqCount[r] * satisfied[r, s-1];  # Satisfied requirements stay satisfied
+
+subject to Graduation{r in GradRequirements}:
+    satisfied[r, postgrad] = 1;
+
+subject to TotalCredits:
+    sum{c in Courses, s in Semesters} credits[c] * takeCourse[c, s] >= minGradCredits;
+
+subject to NoOverload{s in Semesters}:
+    sum{c in Courses} credits[c] * takeCourse[c, s] <= maxSemesterCredits;
+
+subject to HighCredits{s in Semesters}:
+    sum{c in Courses} credits[c] * takeCourse[c, s] - isHighCredits[s] <= highSemesterCredits;
+
+subject to FullTime{s in Semesters}:
+    sum{c in Courses} credits[c] * takeCourse[c, s] >= minSemesterCredits;
+
+subject to Prerequisites{c in Courses, s in Semesters}:
+    takeCourse[c, s] <= isOffered[c, s] * satisfied[c, s]
+
+subject to NoRepeats{c in Courses}:
+    sum{s in Semesters} takeCourse[c, s] <= 1;
+
+\end{verbatim}
+
+\newpage 
+\fi
+
+\begin{abstract}
+    Four-year course planning to maximize student interest while balancing graduation requirements, prerequisites, and semesterly workloads is a challenging optimization problem faced by many students at Harvey Mudd College.
+    This problem is especially relevant for first-year students seeking to understand how well different majors align with their curricular interests, yet it is also especially challenging, as these students are the least familiar with the graduation requirements and course prerequisites.
+    To address this, we develop a model for four-year course planning, seeking to optimize a student's total cumulative interest in their planned coursework, subject to constraints corresponding to graduation requirements, course requisites, and semesterly workload limitations.
+    After gathering a student's preferences, we express the optimization problem as a mixed integer program and solve it with a standard solver.
+    We then analyze the sensitivity of our model to the choice of penalty parameters controlling the tradeoffs between the total course desirability, robustness to conflicts, and stressfulness of the plans produced by our model.
+\end{abstract}
+
+\part{Executive Summary}
+
+\section{Intoduction}
+
+Course scheduling can be hard, especially for first-year students seeking to understand possible paths through majors while navigating unfamiliar graduation and major requirements.
+Even sophomores and upperclassmen could benefit from optimized scheduling tools designed to plan curricular paths tailored to students' interests, which minimize stressful, high-workload semesters while meeting graduation and major requirements.
+To address this challenge, we at HMCOR have created a four-year course scheduler for Harvey Mudd College students by modeling the problem as a mixed integer linear program.
+
+We used data from the Hyperschedule.io API, where we obtained information on course offerings within a two-year span, which included information about course names, credit amounts, discipline, and semesters offered.
+We also collected course prerequisite and corequisite data from the departmental website of each STEM department at Harvey Mudd College, which we augmented through discussions with current students majoring in various STEM disciplines.
+Further, we manually collected data from the Harvey Mudd Course Catalog for information about graduation requirements, such as required core classes, major classes, and completed credits.
+Finally, we let the user of the model input their own data to express interest in potential classes and majors.
+Given all of this data, we used a linear program to construct an optimal schedule that maximizes the students' interest in their classes while still ensuring the students graduate within 4 years without overloading.
+
+\section{Model}
+
+We modeled the problem of 4-year course scheduling as a mixed-integer program, seeking a schedule that maximizes the student's interest in the courses they are taking, minimizes the courses that are taken at the last possible time, and minimizes the number of per-semester credits over a certain threshold. The constraints of the model enforce major requirements, prerequisites/corequisites, and minimum and maximum allowable credit counts for each semester and for graduation, and they prohibit retaking most courses multiple times.
+
+Since students hold different degrees of interest in different courses and must meet different major requirements for graduation, the model also relies on user input. So, we ran the model on several instances of sample input data in order to gather information on the general tendencies of the program. 
+
+\section{Results}
+
+The output produced when we ran the model for various majors and preferences does indeed resemble possible schedules that students of those majors could actually pursue. Core, major, and HSA requirements are met, prerequisites and corequisites are respected, and credit counts are within a reasonable range. The model has a notable tendency to de-prioritize major-required classes, particularly those that the student is not interested in. This reflects the belief that the student will always be allowed to take a required course if they have reached the final possible offering of that course and they need it to graduate.
+
+In our analysis of the model, we see that the model first prioritizes including as many of the desired courses in the schedule as possible. Next, it prioritizes limiting the number of high-credit semesters, which we define as a semester with over 15 credits taken. Lastly, the model prioritizes taking desired classes as early as possible to the extent that this goal does not interfere with the previous two priorities. By changing some of the parameters, the model's priorities can be altered in accordance with the users' desires; for instance, avoiding high-credit semesters could be given higher or lower priority.
+
+While the model presented in this report provides a working baseline, there are numerous ways to improve its quality and usability. Since credit counts are not always in direct correspondence with a semester's actual workload, the model is prone to suggesting schedules that would be exceedingly difficult in practice, despite maintaining low credit loads in each semester. Factoring in more subtle scheduling best-practices with the help of stakeholders, along with a more user-friendly interface, would help greatly in creating a model that can actually assist Mudders in their course-scheduling endeavors.
+
+\clearpage
+
+\part{Technical Report}
+
+\section{Introduction}
+
+Planning four years of classes given major requirements, idiosyncratic interests, and complex prerequisite structures can be a challenge for any Mudder.
+Furthermore, first-year students often want to have an idea of their future coursework prospects in different majors to help decide their area of study.
+To address this, we worked to solve the problem of four-year course scheduling at Harvey Mudd College, developing a mixed integer linear programming model of the problem.
+We provide current students, especially freshmen, with the ability to plan out their four-year course schedules given their desired classes and major.
+Moreover, we want to help students plan their schedules to reduce overscheduling or risk of being in danger of missing requirements.
+This project also helps freshmen get an idea of what their schedules would look like in different majors, thus helping them decide what they want to study.
+
+The primary stakeholders of this problem are students who want to plan out their future schedule.
+First-year and major advisors are also stakeholders, as integral parts of the schedule planning process.
+Lastly, the various academic departments at Harvey Mudd also play a role, as they expect students entering their majors to understand the coursework they are intended to take and plan accordingly.
+We expect the students to value their interest in the courses they plan to take and the preparation they will receive for their post-graduation plans.
+The former concern is directly reflected in the objective function we maximize.
+The latter concern is also partially addressed by allowing students to indicate their degree of interest in each course.
+Since major requirements are also designed to provide students with the necessary preparation for their post-graduation plans, constraining schedules to fulfill major and graduation requirements also serves to satisfy this objective, as well as the students' more basic desire to graduate on time.
+Similarly, advisors' objectives are to ensure that students create a schedule that is not unnecessarily stressful and ensures flexibility for students' changing plans.
+By allowing students and advisors to efficiently generate well-optimized schedules designed to align with both student interests and graduation requirements, we aim to help reduce the scheduling burden placed on advisors.
+Improving the overall level of interest on the part of the students in terms of the classes they take may also improve the experience for instructors, as engaged students make for a better time teaching a class.
+Further, by penalizing schedules that have little flexibility or require especially busy semesters, we hope to help students and advisors plot less stressful college trajectories.
+
+To develop our model, we collected course data, graduation requirements, and relevant college policies from Hyperschedule.io, the Harvey Mudd College Student Handbook, and the Harvey Mudd College website.
+We then customized the model with preference data provided by the student users of our model via an in-person survey.
+We used this data to specify the parameters of a mixed integer linear programming model we developed for the course planning problem, which we solved using standard software.
+% After solving this model, we also reran the model with each of the planned offerings of each course taken removed individually from the list of predicted course offerings to observe the robustness of the plan to uncertainties in future course offerings and conflicts.
+
+The rest of this report is organized as follows.
+In Section \ref{sec:model}, we specify our model formulation as a mixed integer linear program.
+Then, in Section \ref{sec:data}, we describe our methods and sources of data collection.
+We proceed to analyze our model in Sections \ref{sec:results} and \ref{sec:sensitivity}.
+Specifically, we interrogate the model's sensitivity to the penalty parameters, evaluate the model's robustness to scheduling conflicts, and identify general trends in the observed scheduling strategy of the model.
+Finally, we conclude our report and present directions for further improvement of our model in Section \ref{sec:conclusion}.
+
+\section{Model Formulation}\label{sec:model}
+
+Our course scheduler is a mixed integer linear program, maximizing the student's interest in a schedule's courses, with penalties for undesirable schedule traits and subject to scheduling constraints of prerequisites, graduation requirements, and other general considerations within a schedule, such as a lack of overloading.
+In creating our model, we made some simplifying assumptions.
+First, we assume no classes ever conflict with other classes, since we can’t predict which times which courses will be offered.
+We also assume that the roster of course offerings repeats every four semesters, since most classes in the catalog are offered at least once every two years. We do not factor in ``topics classes'' since predicting when these classes will be offered is impractical.
+This assumption also implies that we are assuming professors never go on sabbatical and that no professors will leave in the four years scheduled, since some electives are only taught by a single professor.
+
+For our baseline model, we assume that the user has taken no relevant electives and no core classes, since we are prioritizing the problem of freshmen trying to create a four-year plan.
+For simplicity, we assume in particular that the scheduling period begins in the fall of an odd-numbered year and terminates after eight semesters, in the spring of another odd-numbered year.
+We also assume that the user can get into any class they want, since it is impractical to accurately predict when a class will fill and whether a student’s PERM request will be accepted.
+A direction for future improvement could involve predicting when courses fill and how often PERMs are approved to account for the likelihood of the user being able to register for a given class in a given semester.
+
+\subsection{Sets}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|l}
+        \hline 
+        \textbf{Symbol} &  \textbf{Description} \\
+        \hline 
+        $\S$ & Semesters\\ 
+        $\R$ & Requirement Groups \\ 
+        $\C$ & Courses\\
+        $\G$ & Graduation Requirements
+    \end{tabular}
+    \caption{Sets}
+    \label{tab:sets}
+\end{table}
+
+To represent our model, we define an ordered set $\S=\{1,2,3,4,5,6,7,8\}$ of semesters and a set $\R$ of ``requirement groups,'' which we use to encode Boolean logic conditions such as course prerequisites and graduation requirements.
+We additionally define a set $\C\subseteq\R$ of courses and a set $\G\subseteq\R$ of graduation requirements.
+The set of courses $\C$ contains the available courses to be scheduled based on historical course offerings, as well a number of generic courses which indicate opportunities for the user to fill in any course meeting certain requirements.
+In particular, we add 12 generic STEM courses satisfying no requirements, 5 generic electives in each STEM department (Biology, Chemistry, Physics, Math, Computer Science, and Engineering), 6 generic 5C HSA courses, 4 generic Harvey Mudd departmental HSA courses, and one generic Harvey Mudd departmental writing-intensive HSA course.
+Note that these generic course offerings are never chosen by the model if the student expresses any interest in a specific class that satisfies the corresponding requirement.
+
+The sets $\C$ and $\G$ are defined as subsets of the set of requirement groups so that the requirement group associated with a course represents the prerequisites for taking the course, and the graduation requirements are simply requirements that must be met to graduate.
+Each major is also represented by a requirement group in $\R$, although we do not define explicit subsets for these special elements.
+In the nomenclature of our model implementation presented in Appendix \ref{app:data}, the graduation requirements group $\G$ consists of the requirement group identifiers \verb|Core|, \verb|HSAs|, and a group corresponding to the user's major.
+
+\subsection{Decision Variables}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|l}
+        \hline 
+        \textbf{Symbol} &  \textbf{Description} \\
+        \hline 
+         $x_{c,s}$&  Binary variable indicating whether course $c$ is taken during semester $s$\\ 
+         $y_{r,s}$& Binary variable, true if requirement group $r$ is satisfied upon starting semester $s$ \\ 
+         $h_s$ & Nonnegative variable indicating the number of penalized credits in semester $s$
+    \end{tabular}
+    \caption{Variables}
+    \label{tab:variables}
+\end{table}
+
+In our model, we use the binary decision variables $x_{c,s}$ for $c\in\C$ and $s\in\S$ to encode whether a course, $c$, is taken in semester, $s$. The decision variable is 1 if the course is taken, and 0 otherwise.
+We additionally define the binary decision variables $y_{r,s}$ for $r\in\R$ and $s\in\S$ to encode whether a requirement $r$ is satisfied at the beginning of semester $s$.
+Finally, we define $h_s$ for $s\in\S$ to represent the number of penalized credits taken in semester $s$ above the soft credit limit.
+
+\subsection{Parameters}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|l}
+        \hline 
+        \textbf{Symbol} & \textbf{Description} \\
+        \hline 
+         $p_{c,r}$&  Binary parameter determining whether $c$ is a prerequisite in group $r$\\ 
+         $c_{c,r}$ & Binary parameter determining whether $c$ is a corequisite in group $r$\\
+          $g_{r',r}$& Binary parameter determining whether $r'$ is included in $r$ \\ 
+          $n_r$&  Number of requirements and credits of requisites that satisfy $r$\\ 
+         $I_c$ & Interest in $c$\\ 
+          $H$& Threshold for ``high-credit'' semester\\
+          $O$ & Penalty per credit over threshold\\ 
+          $C_c$& Credit amount of $c$\\
+          $G$ & Graduation credit requirement\\ 
+          $m$ & Minimum credit amount in a semester\\ 
+          $M$ & Maximum credit amount in a semester\\ 
+          $\gamma$ & Anti-fragility weight\\
+          $o_{c,s}$ & Binary parameter determining whether $c$ is offered in $s$.
+    \end{tabular}
+
+    \caption{Parameters}
+    \label{tab:parameters}
+\end{table}
+
+Our model involves several parameters.
+First, we define binary parameters $p_{c,r}$ and $c_{c,r}$ for $c\in\C$ and $r\in\R$, which are 1 if course $c$ is a prerequisite or corequisite for requirement group $r$, respectively.
+Similarly, $g_{r',r}$ is 1 if requirement $r'\in\R$ is included in requirement group $r\in\R$, or 0 otherwise.
+The positive parameters $n_r$ for $r\in\R$ then define the number of requirements and credits of requisites needed to satisfy the requirement group $r$.
+These parameters together define the Boolean logic system of our model, which we use to ensure the generated schedule meets all graduation and major requirements and obeys course prerequisites and corequisites.
+
+The parameters $I_c$ for $c\in\C$ represent the user's degree of interest in taking course $c$.
+We note that $I_c$ will differ from a negative default value only for courses for which the user has chosen to specify a preference, and for the added generic electives, which we assign 0 interest.
+We then define the positive parameters $H$ and $O$ representing the cutoff for a ``high-credit'' semester and the penalty per credit over this threshold, respectively.
+
+The parameter $C_c$ for $c\in\C$ represents the credit amount of course $c$, and $G$ is the number of credits that must be taken by graduation.
+Additionally, parameters $m$ and $M$ represent the minimum and maximum number of credits that can be taken in a specific semester, respectively.
+The positive parameter $\gamma$ defines the weight of the ``anti-fragility'' term in the objective function, with higher values of $\gamma$ biasing the model more strongly towards taking more interesting classes earlier.
+Finally, $o_{c,s}$ for $c\in\C$ and $s\in\S$ is a binary parameter that is 1 if course $c$ is offered in semester $s$, or 0 otherwise.
+
+\subsection{Objective Function}
+
+Our objective function, which we aim to maximize, is the total interest the user has in the courses included in the schedule, less penalties. This is given by
+\begin{equation*}
+    \sum_{s\in\S}\sum_{c\in\C} I_c x_{c,s} - \sum_{s}Oh_s - \gamma\sum_{s\in\S}\sum_{c\in\C} I_co_{c,s}\left(1-\sum_{s'>s\in\S}x_{c,s'}\right).
+\end{equation*}
+The first summation accounts for the student's total interest in the courses they would take under the plan, and the second summation penalizes semesters with credit counts exceeding the semesterly ``high-credit'' threshold.
+The third summation discourages planning to take courses at the last possible time by penalizing each missed opportunity to take each desired course.
+
+\subsection{Constraints}
+
+Our first and most complex constraint implements the defining features of the requirement groups to build our Boolean logic system of prerequisites and corequisites.
+\begin{equation*}
+    n_r y_{r,s} \le \sum_{r'\in\R\setminus\{r\}} g_{r',r} y_{r',s}
+    + \sum_{c\in\C} p_{c,r} C_{c} \sum_{s'<s\in\S} x_{c,s'}
+    + \sum_{c\in\C} c_{c,r} C_{c} \sum_{s'\le s\in\S} x_{c,s'}
+    \qquad\forall r\in\R, s\in\S.
+\end{equation*}
+This ensures $y_{r,s}$ can only be 1 if at least $n_r$ units of requirements in requirement group $r$ are met.
+The first summation on the right-hand side accounts for dependencies between requirement groups, while the second and third summations account for the requirement's prerequisite and corequisite courses.
+
+Next, we enforce the prerequisites of each course taken with the constraint
+\begin{equation*}
+    x_{c,s} \le o_{c,s} y_{c,s} \qquad\forall c\in\C, s\in\S,
+\end{equation*}
+and we enforce graduation requirements with the constraint
+\begin{equation*}
+    y_{r,\max S} = 1\qquad\forall r\in\G.
+\end{equation*}
+The total number of credits required to graduate is enforced by the constraint
+\begin{equation*}
+    \sum_{c\in\C} \sum_{s\in\S} C_c x_{c,s} \ge G.
+\end{equation*}
+Overloads and underloads are prohibited by the following constraints
+\begin{gather*}
+    m \le \sum_{c\in\C} C_c x_{c,s} \le M \qquad\forall s\in\S.
+\end{gather*}
+Meanwhile, the constraint that
+\begin{equation*}
+    \sum_{c\in\C} C_c x_{c,s} - h_s \le H
+\end{equation*}
+ensures credit loads over the ``high-credit'' threshold are reflected in the decision variables $h_s$ for $s\in\S$.
+
+Finally, we prohibit taking the same course more than once with the requirement that
+\begin{equation*}
+    \sum_{s\in\S} x_{c,s} \le 1 \qquad\forall c\in\C.
+\end{equation*}
+Courses that may be repeated are accounted for by duplicating those courses in the instantiation data and assigning each duplicate the same interest level.
+
+\section{Data Collection}\label{sec:data}
+
+We primarily used the \href{https://hyperschedule.io}{Hyperschedule.io} API to collect the static model parameters, and for the Fall 2025 and Spring 2025 course data, we opened Hyperschedule on a local machine to extract the Hyperschedule test data.
+All data from Hyperschedule was collected in JSON format, and parsed by a custom parser written in Python.
+This data supplied the elements of the set of courses, $\C$, as well as the values of the parameters $C_c$ and $o_{c,s}$, under the assumption that the roster of course offerings exactly repeats every eight semesters.
+%Music performance classes and physical education classes were duplicated to produce eight and three copies of each, respectively, to allow these courses to appear multiple times in the optimized schedules.
+Classes which may only be taken in specific years, such as Core classes and senior capstones, have this restriction enforced by ensuring $o_{c,s}$ is zero for these classes in semesters they may not be taken, even if the course is otherwise offered.
+The specific values of $C_c$ and $o_{c,s}$ we use can be found in Tables \ref{tab:offerings} and \ref{tab:credits} in Appendix \ref{app:data}.
+
+We also collect data from the users of our model.
+In particular, we ask each user to indicate their interest or disinterest in each course on which they have a preference on a scale of 0 (disinterested) to 5 (extremely interested), providing values for the parameters $I_c$.
+For any course $c$ for which the user does not indicate interest or disinterest, $I_c$ is assigned the default interest value of $-10$, except for the set of added generic courses, which are each assigned an interest value of 0.
+This encourages the model to suggest these generic courses instead of randomly selecting unrated courses where possible.
+Example values of $I_c$ can be found in Tables \ref{tab:math-in}, \ref{tab:engr-in}, and \ref{tab:cs-in} in Appendix \ref{app:sample}.
+
+The user is also asked to select a major, reflected in the inclusion of a corresponding major-specific requirement group in the set of graduation requirements $\G$.
+The user may also elect to change the ``high-credit'' threshold $H$ and the ``high-credit'' penalty $O$, which default to 15 and 1.5, respectively.
+Similarly, the user could elect to modify the value of the ``anti-fragility'' weight $\gamma$ from its default value of 0.05.
+
+The minimum and maximum credit load per semester, $m$ and $M$, are set to 12 and 18, respectively, while the minimum number of credits to graduate, $G$, is set to 120, all in accordance with the student handbook.
+Major requirements were gathered from the majors' pages on the Harvey Mudd College website, which are updated to reflect the requirements of the most recent student handbook.
+These requirements were collected manually and recorded in a Python program, which then generated the appropriate AMPL data file.
+These requirements constitute elements of the set of requirements, $\R$, as well as corresponding values of the parameters $p_{c,r}$, $c_{c,r}$, and $g_{r',r}$.
+Graduation requirements were similarly collected and encoded from the student handbook.
+The particular values of $g_{r',r}$, $p_{c,r}$, and $c_{c,r}$ we used are detailed in Tables \ref{tab:reqs-groups}, \ref{tab:reqs-prereqs}, and \ref{tab:reqs-coreqs} in Appendix \ref{app:data}.
+
+In order to acquire course prerequisite and corequisite data, we collected the data by parsing the content of departmental websites listing course offerings. We used a Python script, modified from a Google Gemini output, that parsed the websites and wrote the prerequisite information into text files. The prompt and code output are included in Appendix \ref{app:ai}. This output was slightly modified to allow the url of each departmental website and the name of the output file to be specified. The generated text files were then parsed by a Python program to generate a corresponding AMPL data file specifying the course prerequisite and corequisite relationships.
+
+\section{Results}\label{sec:results}
+
+We ran the model on sample data sets for several of the majors at Harvey Mudd, including math, engineering, and computer science. The specific user inputs and model outputs are listed in Appendix \ref{app:sample}. One interesting feature of the model output is the way HSA courses are distributed across the student's time at Mudd. For example, in the sample mathematics schedule, the model suggests the student take one HSA course in their sophomore year, 6 HSA courses in the junior year, and the final 3 in the senior year. Meanwhile, the sophomore fall semester consists of four mathematics courses along with the required Engineering Systems course. In practice, people often prefer to have some balance of technical classes and HSAs, especially when the technical classes are ones that are considered difficult or high-workload. However, the model cannot currently factor in the difficulty of courses. Instead, courses are generally sequenced by interest, beginning with the courses with user-specified positive interest, then 0 interest generic courses to fulfill generic HSA requirements, and finally required major-specific courses with the default negative interest.
+
+We can also see that in the engineering program, which is somewhat reputed for pushing students to delay HSAs to be taken later in their time at Mudd, no HSAs are scheduled until the junior spring semester. This indicates that even with no knowledge of how people ``typically'' plan their engineering program, the model seems to agree that the engineering requirements encourage students to front-load their technical coursework.
+
+We can also examine when major-required courses are scheduled compared to technical electives that the student is interested in. In the sample math schedule, in which the user input included preferences for Operations Research and Statistical Theory, those courses were both scheduled in the sophomore fall. Meanwhile, the key major-required classes in Mathematical Analysis I and Abstract Algebra I are delayed until the following semester. In general, unless the student expresses interest in required courses, they tend to get delayed in the model for as long as possible. This is because in the objective function, the anti-fragility penalty for taking a course with fewer ``fallback'' times to take the course later is also proportional to the student's interest in the course. This speaks to an underlying principle of the model, that ``uninteresting'' courses that are required to graduate need not be prioritized, as the student will have no trouble securing seats in these classes. As such, the model pursues a strategy in which the student prioritizes the optional courses that they find interesting. In practice, these are indeed the courses the student is less certain to be able to register for, making this a useful strategy. %However, one downside of the current formulation is that the student's level of interest in major-required courses, even those that have no alternatives in the major program, can affect the output of the model. This is potentially something that could be changed about the model in the future, since if a student is required to take a course, and they will always get into it, then their interest in that course should not be a factor in making decisions.
+Similarly, the model encourages students to take more interesting required courses earlier, which may have the side effect of producing additional opportunities for students to gain depth in these areas through further independent study or research after taking these courses.
+
+\section{Sensitivity Analysis}\label{sec:sensitivity}
+
+For our sensitivity analysis, we ran the model with altered parameters. Holding all other parameters at their usual values detailed in Appendix \ref{app:data}, we first ran the model witth $\gamma = 0$, then $\gamma = 0.5$, then $O = 0$, then $O = 10$, and finally set the default interest $I_c = 0$.
+
+When we tested $\gamma = 0$, the courses taken were the same, with the exception of placeholders being exchanged for others, but the order was different, as detailed in Table \ref{tab:fragility-0-out} in Appendix \ref{app:sensitivity}. The model also took PHYS050 HM at the same time as ENGR079 HM, creating a 17-credit semester sophomore fall. We are unsure why this is happening, as we verified that this is being penalized in the model by the ``high-credit'' penalty. Otherwise, the suggested schedules were effectively unchanged from the baseline model. Moreover, the model reached a 0\% optimality gap and ran much faster with fewer simplex iterations. 
+
+When we tested $\gamma = 0.5,$ the schedule was the same, with the exception of placeholders being exchanged for other placeholders, as detailed in Table \ref{tab:fragility-05-out} in Appendix \ref{app:sensitivity}. This makes sense, as we are already taking all of our desired courses as early as possible in our original model with $\gamma = 0.05,$ so decreasing $\gamma$ would not cause any differences. We believe that there may only be a difference in the output if we increase $\gamma$ such that reduction in fragility obtained by taking a class earlier overpowers the effect of the high credit penalty. For example, if we desired taking PHYS50 HM, the output likely would take it at the same time as ENGR79 HM, creating a 17 credit semester, overpowering the penalty from taking a high credit semester. 
+
+When we tested $O = 0$, the courses taken were the same, but the order was different, as detailed in Table \ref{tab:credits-0-out} in Appendix \ref{app:sensitivity}. Generally, desired classes were taken earlier. For example, a high-priority class like MATH152 PO, which has no prerequisites in our model, was taken in the first semester. This makes sense, as taking the class earlier would reduce the fragility penalty effect from this class. Moreover, some semesters have 18 credits for similar reasoning, as the extra space freed up future classes to be taken earlier. Moreover, the model ran much faster with fewer simplex iterations. 
+
+When we tested $O = 10$, CLES049A HM was taken in the first semester, as detailed in Table \ref{tab:credits-10-out} in Appendix \ref{app:sensitivity}. We assume this is because an increased ``high-credit'' penalty significantly inflates the objective function value such that the effect of taking the undesired class CLES049A HM is not pushed out when the optimality gap threshold is reached. Moreover, the sophomore fall semester has 14 credits instead of 16 credits, and the sophomore spring semester has 15 credits instead of 16 credits. This makes sense, as we are more heavily punishing high credit semesters. However, the tradeoff is that we take one less class when $O = 10$ compared to the baseline. 
+
+When we tested the default interest $I_c = 0$, the outputted schedule takes many more courses for each semester, as many semesters are comprised of several 0.1, 0.75 and 1.5-credit courses. Since these classes have low credit counts, taking these classes does not violate the overloading constraint. Moreover, since these classes have zero interest, taking these classes does not directly affect the objective function value. We hypothesize that this is being done by the model so that semesters with PHYS050 HM, MATH198 HM, and ENGR079 HM can be taken with 15 credits while still not violating total graduation requirements. Under normal parameter values, we are forced to take 16 credit semesters, as taking 13 credit semesters would make it impossible to graduate, but now we are able to take several 15 credit semesters while still ensuring graduation. Moreover, the model ran much faster with fewer simplex iterations. The full model output from this experiment is detailed in Table \ref{tab:interest-0-out} in Appendix \ref{app:sensitivity}.
+
+Overall, our analysis implies the model primarily prioritizes taking the most desired courses. Next, it prioritizes limiting the number of high-credit semesters, which we define as a semester with over 15 credits taken. Lastly, it prioritizes taking classes as early as possible the least. We can see that these priorities are dependent, as expected, upon the penalization and weight parameters, allowing the user to reflect their own priorities in the model's objective function. 
+
+\section{Conclusion and Recommendations}\label{sec:conclusion}
+
+We have seen that mixed integer programming provides a viable method of creating hypothetical 4-year course schedules, while factoring in requirements for the core, majors, and HSAs, pre/corequisites, student interest levels, desirable credit counts, and schedule fragility. Simply by knowing a student's major and course preferences, the model can incorporate their desired courses into a schedule that the student could hypothetically follow. 
+
+There are still many improvements that could be made to the model. A primary concern is the workload required by the model in certain semesters. To avoid particularly difficult course schedules, students and faculty often recommend and adhere to certain principles for multi-semester planning. For example, math majors will advise each other to take Math 131 and Math 171 in separate semesters. Physics majors often follow a similar guideline for Physics 111 and Physics 117 if possible. The engineering department strongly recommends that students take Engineering 101 and 102 in the junior year rather than as a senior to mitigate the risk of not passing these classes. More generally, people tend to avoid taking too much technical coursework in a single semester. None of these agreed-upon ``best practices'' are factored into our current model. So, it would be interesting to attempt to quantify some of them and factor them into the objective function or constraints. For instance, a model could place limits on the ``effective workload'' of each semester if such ``effective workloads'' could be estimated for each class.
+
+Given more time, the model would also benefit from having a more user-friendly front-end that is available to all Mudd students. This would require substantially more discussions with stakeholders, especially students and faculty from as many departments as possible to ensure consistent quality across majors. It would also be beneficial to implement a more flexible version of the model that can take as input the courses a student has already taken, and return an optimized plan for the remaining semesters. In conclusion, with a good deal of additional work, the baseline model introduced in this report has significant potential to become a widely applicable and useful tool.
+
+\part{Appendices}
+
+\section{AI Usage}\label{app:ai}
+
+\subsection{AI Prompt Used} 
+\begin{lstlisting}
+Write a python script that is able to parse this website in order to extract the prerequisites for each course and writes the information to a txt file. The prerequisite data is only loaded once you click on the aria for each course. The website is: https://www.hmc.edu/cs/academic-programs/course-descriptions/. Make the code functional for other course description pages, such as https://www.hmc.edu/engineering/curriculum/courses/. 
+
+The aria for one specific course in the html looks something like this: <a class="wp-block-mudd-acalog-widget-courses-course-link collapsed" href="https://catalog.hmc.edu/preview_course_nopop.php?catoid=26&amp;coid=8451" data-bs-target="#course-03ncg" data-bs-toggle="collapse" aria-expanded="false" aria-controls="course-03ncg" role="button">Introduction to Biology and Computer Science</a>
+
+When opened, the aria looks as follows: <li class="wp-block-mudd-acalog-widget-courses-course"><div class="wp-block-mudd-acalog-widget-courses-course-title-wrapper"><span>CSCI121 HM</span><span><a class="wp-block-mudd-acalog-widget-courses-course-link" href="https://catalog.hmc.edu/preview_course_nopop.php?catoid=26&amp;coid=8247" data-bs-target="#course-5630m" data-bs-toggle="collapse" aria-expanded="true" aria-controls="course-5630m" role="button">Software Development</a></span></div><div class="collapse show" data-acalog-ajax="/catalog/28/course/6639/" data-acalog-ajax-type="course" id="course-5630m" data-acalog-data="courses" data-acalog-catalog-legacy-id="26" data-acalog-course-legacy-id="8247" style=""><div class="acalog-course-body"><p><strong>Credit(s):</strong> 3</p><p><strong>Instructor(s):</strong> Staff</p><p><strong>Description:</strong> Introduction to the discipline concerned with the design and implementation of software systems. The course presents a historical perspective on software development practice and explores modern, agile techniques for eliciting software requirements, designing and implementing software architecture and modules, robust testing practices, and project management. Student teams design, develop, and test a substantial software project. </p><p><strong>Prerequisite(s):</strong> <a class="acalog-permalink-link" href="https://catalog.hmc.edu/preview_course_nopop.php?catoid=26&amp;coid=8243">CSCI070 HM</a>&nbsp;<br></p></div></div></li>
+
+Make sure that the content is loaded before trying to extract the prerequisite data. 
+
+Make sure you use selenium in order to load the prerequisite data since it isn't loaded until the data is retrieved from the server.
+
+A sample description will look like this:
+
+Credit(s): 3
+Instructor(s): Staff
+Description: Introduction to the discipline concerned with the design and implementation of software systems. The course presents a historical perspective on software development practice and explores modern, agile techniques for eliciting software requirements, designing and implementing software architecture and modules, robust testing practices, and project management. Student teams design, develop, and test a substantial software project.
+Prerequisite(s): CSCI070 HM 
+
+\end{lstlisting}
+
+\subsection{AI Model Code Output} 
+\begin{lstlisting}
+import time
+import sys
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, ElementClickInterceptedException
+from webdriver_manager.chrome import ChromeDriverManager
+
+def scrape_hmc_courses(url, output_file):
+    """
+    Scrapes HMC course description pages for prerequisites and details.
+    """
+    
+    # Setup Chrome options
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")  # Run in background
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    # Set a window size to ensure elements are "visible" for clicking
+    chrome_options.add_argument("--window-size=1920,1080")
+
+    print(f"Initializing Browser...")
+    # specific service setup to handle driver installation automatically
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+
+    try:
+        print(f"Navigating to: {url}")
+        driver.get(url)
+
+        # Wait for the main list to load
+        wait = WebDriverWait(driver, 10)
+        
+        # Locate all the course toggle links (the aria buttons)
+        # Based on the HTML provided: class="wp-block-mudd-acalog-widget-courses-course-link"
+        course_links = wait.until(EC.presence_of_all_elements_located(
+            (By.CSS_SELECTOR, "a.wp-block-mudd-acalog-widget-courses-course-link")
+        ))
+        
+        print(f"Found {len(course_links)} courses. Starting extraction...")
+
+        with open(output_file, "w", encoding="utf-8") as f:
+            
+            # We iterate by index because clicking elements might refresh parts of the DOM
+            # causing "StaleElementReferenceException" if we hold onto the element objects
+            for i in range(len(course_links)):
+                try:
+                    # Re-find the list to avoid stale elements
+                    current_links = driver.find_elements(By.CSS_SELECTOR, "a.wp-block-mudd-acalog-widget-courses-course-link")
+                    if i >= len(current_links):
+                        break
+                    
+                    link = current_links[i]
+                    
+                    # Get the target ID (e.g., #course-03ncg) to know what to wait for
+                    target_id = link.get_attribute("data-bs-target")
+                    course_title = link.text.strip()
+                    
+                    # Attempt to find the course code (sibling span)
+                    # Structure: <span>CODE</span><span><a ...>Title</a></span>
+                    try:
+                        parent_span = link.find_element(By.XPATH, "./..")
+                        grandparent_div = parent_span.find_element(By.XPATH, "./..")
+                        course_code = grandparent_div.find_element(By.TAG_NAME, "span").text.strip()
+                    except:
+                        course_code = "UNKNOWN"
+
+                    print(f"Processing: {course_code} - {course_title}")
+
+                    # Scroll to element to ensure it's clickable
+                    driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", link)
+                    time.sleep(0.5) # Short buffer for scroll to settle
+
+                    # Click to expand (Trigger AJAX)
+                    # Using JS click is often safer for these types of overlay widgets
+                    driver.execute_script("arguments[0].click();", link)
+
+                    # Wait for the body to become visible and contain text
+                    # The content loads into a div with class 'acalog-course-body' inside the target_id
+                    body_selector = f"{target_id} .acalog-course-body"
+                    
+                    try:
+                        wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, body_selector)))
+                    except TimeoutException:
+                        # Sometimes it's already loaded or takes longer
+                        print(f"  Warning: Timeout waiting for details on {course_code}")
+                        continue
+
+                    # Extract the content div
+                    content_div = driver.find_element(By.CSS_SELECTOR, body_selector)
+                    
+                    # Get all paragraphs to format them nicely
+                    paragraphs = content_div.find_elements(By.TAG_NAME, "p")
+                    
+                    # Format output for this course
+                    f.write(f"Course: {course_code} {course_title}\n")
+                    f.write("-" * 40 + "\n")
+                    
+                    for p in paragraphs:
+                        # Get text and clean it up
+                        text = p.text.strip()
+                        # If the text is empty, skip
+                        if not text:
+                            continue
+                        f.write(f"{text}\n")
+                    
+                    f.write("\n" + "="*40 + "\n\n")
+                    
+                    # Optional: Collapse it back to keep DOM clean, though not strictly necessary
+                    # driver.execute_script("arguments[0].click();", link)
+                    
+                except Exception as e:
+                    print(f"Error processing course index {i}: {e}")
+                    continue
+
+        print(f"Done! Data saved to {output_file}")
+
+    except Exception as main_e:
+        print(f"Critical Error: {main_e}")
+    finally:
+        driver.quit()
+
+if __name__ == "__main__":
+    # Default URL if none provided
+    target_url = "https://www.hmc.edu/cs/academic-programs/course-descriptions/"
+    
+    # Allow command line argument for different pages
+    if len(sys.argv) > 1:
+        target_url = sys.argv[1]
+        
+    output_filename = "course_prerequisites.txt"
+    scrape_hmc_courses(target_url, output_filename)
+\end{lstlisting}
+
+\section{Data}\label{app:data}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|l|}
+        \hline
+        Parameter & Value & Explanation \\\hline
+        $H$ & 15 & Credit threshold for a ``high-credit'' semester \\
+        $O$ & 1 & Penalty per credit over threshold \\
+        $m$ & 12 & Minimum credit amount per semester \\
+        $M$ & 18 & Maximum credit amount per semester \\
+        $G$ & 120 & Minimum total credits required to graduation \\
+        $\gamma$ & 0.05 & Weight of the ``anti-fragility'' penalty term \\\hline
+    \end{tabular}
+    \caption{Scalar parameter values}
+    \label{tab:parameters}
+\end{table}
+
+The set $\G$ is defined as $\G=\{\verb|Core|,\verb|HSAs|,\mathcal{M}\}$, where $\mathcal{M}$ is selected from Table \ref{tab:majors} and indicates the student's major.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|ccccc|}
+        \hline
+        \verb|Maj_BioChem| & \verb|Maj_BioClim| & \verb|Maj_Bio| & \verb|Maj_CS| & \verb|Maj_CSClimate| \\
+        \verb|Maj_ChemClimate| & \verb|Maj_Chem| & \verb|Maj_CsPhys| & \verb|Maj_Engr| & \verb|Maj_Math| \\
+        \verb|Maj_MathCS| & \verb|Maj_MathCompBio| & \verb|Maj_MathPhys| & \verb|MolBio| & \verb|Maj_Phys| \\\hline
+    \end{tabular}
+    \caption{Major identifiers.}
+    \label{tab:majors}
+\end{table}
+%\in\{, \ , \ , \ , \ , \ , \ , \ , \ , \ , \ , \ , \ , \ , \ \}$ indicates the student's major.
+
+{\footnotesize
+\input{ptables.tex}
+
+\begin{landscape}
+\input{ltables.tex}
+\end{landscape}
+}
+
+\section{Sample Interest and Results}\label{app:sample}
+
+\begin{table}[H]
+    \centering
+    \input{math-interests.tex}
+    \caption{Math Major Sample Interests. Interests in the generic courses are held at 0, and interests in all other courses are set to $-10$.}
+    \label{tab:math-in}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{math.tex}
+    \caption{Math Major Sample Schedule}
+    \label{tab:math-out}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{engr-interests.tex}
+    \caption{Engineering Major Sample Interests. Interests in the generic courses are held at 0, and interests in all other courses are set to -10.}
+    \label{tab:engr-in}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{engr.tex}
+    \caption{Engineering Major Sample Schedule}
+    \label{tab:engr-out}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{cs-interests.tex}
+    \caption{Computer Science Major Sample Interests. Interests in the generic courses are held at 0, and interests in all other courses are set to $-10$.}
+    \label{tab:cs-in}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{cs.tex}
+    \caption{Computer Science Major Sample Schedule}
+    \label{tab:cs-out}
+\end{table}
+
+\section{Sensitivity Analysis Model Outputs}\label{app:sensitivity}
+
+\begin{table}[H]
+    \centering
+    \input{fragility-0.tex}
+    \caption{Model output with $\gamma=0$ and all other parameters as specified in Tables \ref{tab:parameters}, \ref{tab:credits}, \ref{tab:offerings}, \ref{tab:reqs-groups}, \ref{tab:reqs-prereqs}, \ref{tab:reqs-coreqs}, and \ref{tab:math-in} above.}
+    \label{tab:fragility-0-out}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{fragility-05.tex}
+    \caption{Model output with $\gamma=0.5$ and all other parameters as specified in Tables \ref{tab:parameters}, \ref{tab:credits}, \ref{tab:offerings}, \ref{tab:reqs-groups}, \ref{tab:reqs-prereqs}, \ref{tab:reqs-coreqs}, and \ref{tab:math-in} above.}
+    \label{tab:fragility-05-out}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{credit-0.tex}
+    \caption{Model output with $O=0$ and all other parameters as specified in Tables \ref{tab:parameters}, \ref{tab:credits}, \ref{tab:offerings}, \ref{tab:reqs-groups}, \ref{tab:reqs-prereqs}, \ref{tab:reqs-coreqs}, and \ref{tab:math-in} above.}
+    \label{tab:credits-0-out}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{credit-10.tex}
+    \caption{Model output with $O=10$ and all other parameters as specified in Tables \ref{tab:parameters}, \ref{tab:credits}, \ref{tab:offerings}, \ref{tab:reqs-groups}, \ref{tab:reqs-prereqs}, \ref{tab:reqs-coreqs}, and \ref{tab:math-in} above.}
+    \label{tab:credits-10-out}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \input{interest-0.tex}
+    \caption{Model output with $I_c$ defaulting to 0 and all other parameters as specified in Tables \ref{tab:parameters}, \ref{tab:credits}, \ref{tab:offerings}, \ref{tab:reqs-groups}, \ref{tab:reqs-prereqs}, \ref{tab:reqs-coreqs}, and \ref{tab:math-in} above.}
+    \label{tab:interest-0-out}
+\end{table}
+
+\end{document}

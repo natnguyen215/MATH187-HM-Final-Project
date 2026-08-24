@@ -1,0 +1,368 @@
+Course: BIOL023 HM Biology Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Application of molecular biology techniques to problems in human genetics, bioengineering, and environmental sensing.
+Corequisite(s): BIOL046 HM
+
+========================================
+
+Course: BIOL046 HM Introduction to Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Adolph, Bush, Donaldson-Matasci, Hur, Schulz
+Offered: Fall and Spring
+Description: Topics in ecology, evolution, molecular genetics, and computational biology.
+Corequisite(s): (CSCI005 HM or CSCI005GR HM or CSCI042 HM) and BIOL023 HM
+
+========================================
+
+Course: BIOL048 HM Science vs Pseudoscience
+----------------------------------------
+Credit(s): 3
+Instructor(s): Ahn
+Description: The class will examine the process of science and contrast it with pseudoscience. Students will learn about the flaws in human thinking as we critically evaluate information and misinformation. Some major, biologically-relevant topics will be covered in more depth, such as placebo medicine and the anti-vaccine and anti-GMO movements. Additional pseudoscience topics will be determined by students, e.g., denialism, conspiracy theories, ESP, etc. The class will be taught from the perspective of a scientist.
+
+========================================
+
+Course: BIOL054 HM Experimental Biology Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Ahn, McFadden, Stoebel
+Offered: Spring
+Description: Investigations in physiology, biochemistry, ecology, molecular biol­ogy, and other areas of experimental biology.
+Corequisite(s): BIOL023 HM and BIOL046 HM and BIOL154 HM
+
+========================================
+
+Course: BIOL081 HM Current Issues in Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall
+Description: Study of a biological topic of current importance to society. Active participation and discussion are stressed. May not be counted for credit toward the biology major.
+Prerequisite(s): Dependent on topic
+
+========================================
+
+Course: BIOL101 HM Comparative Physiology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Ahn
+Offered: Spring
+Description: The general aim will provide a broad introduction to comparative physiology. Students will learn the links between cellular & molecular mechanisms, organ systems, and organismal function in animals. Students will examine the relationship between structure and function in biology. During the process, students will be introduced to the diversity of animals and the scientific tools used to make physiological measurements.
+Prerequisite(s): BIOL046 HM
+
+========================================
+
+Course: BIOL103 HM Comparative Physiology Laboratory
+----------------------------------------
+Credit(s): 2
+Instructor(s): Ahn
+Offered: Fall, alternate years
+Description: Experimental techniques and concepts in plant and animal physiology, including the general areas of cellular biology, energetics, ionic regulation, and signaling. The final third of the course will involve independent student research projects culminating with oral and written presentations of experimental investigations.
+Prerequisite(s): BIOL054 HM and BIOL101 HM
+
+========================================
+
+Course: BIOL108 HM Ecology and Environmental Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Adolph, Guo
+Offered: Spring
+Description: Principles of organization of natural communities and ecosystems, including population dynamics, species interactions, and island biogeography. Modern experimental and mathematical approaches to ecological problems. Application of ecological principles to conservation biology, climate change, and other environmental impacts.
+Prerequisite(s): BIOL046 HM and MATH019 HM
+
+========================================
+
+Course: BIOL109 HM Evolutionary Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): McFadden
+Offered: Fall
+Description: Evolutionary mechanisms, including natural selection, population genetics, speciation, and macroevolutionary processes. Modern methods of phylogenetic reconstruction. History of biological diversity and the fossil record.
+Prerequisite(s): BIOL046 HM and MATH019 HM
+
+========================================
+
+Course: BIOL110 HM Experimental Ecology Laboratory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Donaldson-Matasci
+Offered: Spring, alternate years
+Description: Design and analysis of ecological experiments with an emphasis on hypothesis testing, sampling techniques, and computer-based statistical analysis of data. Most projects are field-based, designed to address aspects of population, community, physiological, and behavioral ecology in animals and plants; work in both terrestrial and aquatic habitats. Includes several all-day field trips to local coastal, desert, and mountain sites.
+Prerequisite(s): BIOL054 HM and BIOL154 HM
+Corequisite(s): BIOL108 HM
+
+========================================
+
+Course: BIOL111 HM Molecular and Cellular Biology Laboratory
+----------------------------------------
+Credit(s): 2
+Instructor(s): Hur, Schulz, Stoebel
+Offered: Fall
+Description: Basic techniques of molecular biology, including restriction mapping, DNA cloning, protein expression, and fluorescence microscopy.
+Prerequisite(s): BIOL054 HM and BIOL154 HM
+Corequisite(s): BIOL113 HM
+
+========================================
+
+Course: BIOL113 HM Molecular Genetics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Hur, Schulz, Stoebel
+Offered: Fall
+Description: Molecular description of gene function in both prokaryotic and eukaryotic cells, including DNA, RNA, and protein structure; DNA replication; transcription and translation; and gene regulation.
+Prerequisite(s): BIOL046 HM and CHEM042 HM
+
+========================================
+
+Course: BIOL119 HM Advanced Mathematical Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Adolph, Donaldson-Matasci, de Pillis (Mathematics), Jacobsen (Mathematics)
+Offered: Fall
+Description: Advanced study of mathematical models of biological processes, including discrete and continuous models. Examples are drawn from a variety of areas of biology, which may include physiology, sys­tems biology, cancer biology, epidemiology, ecology, evolution, and spatiotemporal dynamics. (Crosslisted as MATH119 HM)
+Prerequisite(s): MCBI118A HM
+
+========================================
+
+Course: BIOL121 HM Marine Ecology
+----------------------------------------
+Credit(s): 3
+Instructor(s): McFadden
+Description: Advanced ecology focusing on marine communities. Dispersal, recruitment, competition, disturbance, plant/animal interactions, and other topics. Readings in the primary literature. Counts as a seminar course for Biology majors.
+Prerequisite(s): BIOL154 HM. It is strongly preferred to have taken BIOL108 HM
+
+========================================
+
+Course: BIOL122 HM Molecular Cell Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Hur
+Offered: Spring, alternate years
+Description: An examination of the fundamental unit of life, the cell. By exploring the boundary between chemical reactions and living systems, we will learn how interactions among biological molecules that are ruled by fundamental physical and chemical laws constitute and define life. Readings from the text as well as primary literature, with emphasis on experimental design and analyses.
+Prerequisite(s): BIOL113 HM
+
+========================================
+
+Course: BIOL129 HM Topics in Human Evolution
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bush
+Description: What makes humans different from our closest relatives and how have these differences evolved? This course examines human evolution from several perspectives, ranging from studies of the fossil record to computational and genomic approaches. It relies heavily on readings from the primary literature, and counts as a seminar course for Biology majors.
+Prerequisite(s): BIOL154 HM. It is also recommended to have taken one of BIOL109 HM or BIOL113 HM
+
+========================================
+
+Course: BIOL154 HM Biostatistics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Donaldson-Matasci, Guo, Stoebel
+Offered: Spring
+Description: Statistical techniques for analyzing biological data, including parametric, nonparametric, and randomization methods. Statistical aspects of experimental design with an emphasis on analyzing data collected in BIOL054 HM.
+Prerequisite(s): CSCI005 HM, CSCI005GR HM, or CSCI042 HM
+Corequisite(s): BIOL046 HM and BIOL054 HM
+
+========================================
+
+Course: BIOL160 HM Molecular Immunology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Schulz
+Offered: Spring, alternate years
+Description: The number of microbes in the human body is comparable to the number of human cells. How does the immune system identify and respond to the small number of these microbes that can cause illness or death? In this course, we will explore fundamental processes of the immune system and how they relate to medicine and biotechnology. Topics will include antibody and T-cell receptor structure and function, cells and molecular mediators that regulate the immune response, allergy, autoimmunity, immunodeficiency, tissue and organ transplants, and tumor immunology.
+Prerequisite(s): BIOL113 HM
+
+========================================
+
+Course: BIOL161 HM Research Problems in Biology
+----------------------------------------
+Credit(s): 0.5-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Original experimental investigations in biology undertaken in consultation with a faculty member. May not be counted for credit toward the biology major. 1 credit hour for each 3 hours of research per week.
+Grading Type: Pass/No-Pass
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: BIOL171 HM Analysis of Aquatic Ecosystems
+----------------------------------------
+Credit(s): 4
+Instructor(s): MBL Staff
+Offered: Fall
+Description: The nature and controls of ecosystem processes (production, decomposition, element cycling, and biogeochemistry) in freshwater, estuarine, and marine ecosystems. Application of basic principles of ecosystems ecology to contemporary environmental problems such as coastal eutrophication, fisheries exploitation, effects of introduced species, acid deposition, and global change. Includes lecture, discussion, laboratory, and field work. Offered only through the Semester in Environmental Science Program at the MBL Ecosystems Center, Woods Hole, Massachusetts.
+Prerequisite(s): BIOL046 HM, BIOL054 HM,CHEM024 HM, CHEM042 HM, and MATH019 HM
+
+========================================
+
+Course: BIOL174 HM Biophysics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Gerbode (Physics), Ilton (Physics)
+Offered: Spring
+Description: Selected topics in biophysics focusing on active research in the field. Possible topics include: biolocomotion, membrane biophysics, imaging techniques. Seminar format. (Crosslisted as PHYS174 HM)
+Prerequisite(s): BIOL046 HM and PHYS051 HM
+
+========================================
+
+Course: BIOL182 HM Biochemistry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Haushalter, Vosburg (Chemistry)
+Offered: Spring
+Description: Relation of molecular structure and energy flow to reactions in living systems. (Crosslisted as CHEM182 HM)
+Prerequisite(s): CHEM056 HM and Junior/Senior Standing.
+
+========================================
+
+Course: BIOL183 HM Topics in Physiology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Ahn
+Description: Readings from the primary literature in animal physiology. Specific topics may vary. Counts as a seminar course for Biology majors.
+Prerequisite(s): BIOL101 HM
+
+========================================
+
+Course: BIOL184 HM Biochemistry Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Haushalter, Vosburg (Chemistry)
+Offered: Spring
+Description: Experiments in biochemistry. (Crosslisted as CHEM184 HM)
+Corequisite(s): BIOL182 HM or CHEM182 HM
+
+========================================
+
+Course: BIOL185 HM Special Topics in Biology
+----------------------------------------
+Credit(s): 1.5-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Topics in a particular area of biology, depending on the instructor; usually offered in a seminar format involving readings from the primary scientific literature. Recent offerings have included Global Change Ecology, Climate Change Ecology, and Evolutionary Physiology.
+Prerequisite(s): BIOL046 HM; additional prerequisites may be required dependent on topic
+
+========================================
+
+Course: BIOL187 HM HIV-Aids: Science, Society, and Service
+----------------------------------------
+Credit(s): 3
+Instructor(s): Haushalter
+Description: The molecular biology of HIV infection, the biochemistry of antiviral interventions, and the causes and impact of the global HIV-AIDS pandemic, including the inter-relationships among HIV-AIDS, prejudice, race, and stigma. (Crosslisted as CHEM187 HM)
+Prerequisite(s): BIOL113 HM and (BIOL182 HM or CHEM182 HM)
+
+========================================
+
+Course: BIOL188 HM Advanced Computational Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bush
+Offered: Fall, alternate years
+Description: Computational algorithms and methods used in the study of genomes. Lectures, dis­cussions, and computer laboratory exercises.
+Prerequisite(s): MCBI118B HM
+
+========================================
+
+Course: BIOL189 HM Topics in Biochemistry and Molecular Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Haushalter, Hur, Schulz, Stoebel
+Offered: Fall
+Description: Advanced topics at the interface between chemistry and biology. Counts as a seminar course for Biology majors. (Crosslisted as CHEM189 HM)
+Prerequisite(s): BIOL113 HM and senior standing
+
+========================================
+
+Course: BIOL190B HM Biomechanics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Ahn
+Offered: Fall, alternate years
+Description: Mechanical properties of biological tissues, including bone, connective tissue, and muscles. Static analysis of joints. Analysis of how muscle generates motion, leading to dynamics, including kinematics, kinetics, and locomotion, and how these principles scale for different sized animals. Focus on applications and primary literature.
+Prerequisite(s): BIOL046 HM and ENGR083 HM
+
+========================================
+
+Course: BIOL191 HM Biology Colloquium
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Oral presentations and discussions of selected topics including recent developments. Participants include biology majors, faculty members, and visiting speakers. Required for junior and senior biology majors. No more than 2.0 credits can be earned for departmental seminars/col­loquia.
+Grading Type: Pass/No-Pass
+Prerequisite(s): HMC Biology (including joint majors) only.
+
+========================================
+
+Course: BIOL193 HM Senior Thesis Research: Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: A year-long experimental investigation in biology under the direction of a faculty advisor. Two oral presentations, a written proposal, and a thesis are required. Required of all senior biology majors.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: BIOL195 HM Intensive Research in Biology
+----------------------------------------
+Credit(s): 6
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Intensive experimental research in biology undertaken in consultation with a faculty member. Replaces 3 credits of BIOL193 HM and 3 credits of advanced biology courses for credit toward biology major.
+Prerequisite(s): BIOL161 HM, and departmental approval of formal application
+
+========================================
+
+Course: BIOL197 HM Directed Reading in Biology
+----------------------------------------
+Credit(s): 0.5-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Directed readings or independent laboratory research in selected topics in biology. With prior permission, up to 2 credits may count toward the biology major.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: MCBI117 HM Game Theory and the Evolution of Cooperation
+----------------------------------------
+Credit(s): 3
+Instructor(s): Donaldson-Matasci (Biology)
+Description: An introduction to game theory, a branch of mathematics that studies strategic interactions between individuals, with applications in fields such as biology, economics and political science. The course will introduce classical game theory, representations of games and Nash equilibria. The second part of the course will focus on evolutionary game theory, equilibrium concepts, and the evolution of cooperation.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: MCBI118A HM Introduction to Mathematical Biology
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Adolph (Biology), de Pillis (Mathematics), Donaldson-Matasci (Biology)
+Offered: Spring
+Description: An introduction to the field of mathematical biology. Continuous and discrete mathematical models of biological processes and their analytical and computational solutions. Examples may include models in epidemiology, ecology, cancer biology, systems biology, molecular evolution, and phylogenetics.
+Prerequisite(s): MATH073 HM, MATH082 HM, and BIOL046 HM
+
+========================================
+
+Course: MCBI118B HM Introduction to Computational Biology
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Bush (Biology), Donaldson-Matasci (Biology)
+Offered: Spring
+Description: An introduction to the field of computational biology. Algorithms for phylogenetic inference and computational methods for solving problems in molecular evolution and population genetics.
+Prerequisite(s): CSCI005 HM and BIOL046 HM
+
+========================================
+
+Course: MCBI199 HM Joint Colloquium for the Mathematical and Computational Biology Major
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Students registered for joint colloquium must attend a fixed number of colloquium talks during the semester in any field(s) related to their interests. The talks may be at any members of The Claremont Colleges or a nearby university and may be in any of a wide array of fields including biology, mathematics, computer science and other science and engineering disciplines including bioengineering, cognitive science, neuroscience, biophysics, and linguistics. Students enrolled in the joint colloquium are required to submit a short synopsis of each talk that they attend. No more than 2.0 credits can be earned for departmental seminars/col­loquia.
+Grading Type: Pass/No-Pass
+
+========================================
+

@@ -1,0 +1,462 @@
+Course: CHEM024 HM Chemistry Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Applications of thermodynamics, equilibria, electrochemistry, structure/property relationships, synthesis and spectroscopy.
+Corequisite(s): CHEM042 HM
+
+========================================
+
+Course: CHEM040 HM Introduction to Chemical Research
+----------------------------------------
+Credit(s): 1
+Instructor(s): Staff
+Offered: Spring
+Description: A rotation through multiple research laboratories in the chemistry department. Open to first-year students only.
+Grading Type: Pass/No-Pass
+
+========================================
+
+Course: CHEM041 HM Global Climate Change: Non-linearity, Irreversibility, and Surprises
+----------------------------------------
+Credit(s): 3
+Instructor(s): Hawkins
+Offered: Fall
+Description: Principles of the chemical and physical basis of global climate change, including direct evidence from paleoclimate archives and model projections for future climate conditions. Includes discussion of written works addressing climate policy and climate change skepticism and recent findings from behavioral science on climate change engagement.
+
+========================================
+
+Course: CHEM042 HM Chemistry in the Modern World
+----------------------------------------
+Credit(s): 4
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Chemistry plays a powerful role in addressing an array of current and future global and societal challenges. This course examines contemporary applications of chemistry to describe innovative advances in such areas as energy, medicine, technology, materials, to name a few. These applications illustrate such fundamental concepts as molecular and electronic structure in dictating chemical and physical properties; intermolecular forces, phase behavior, thermodynamics, electrochemistry, kinetics, and equilibria. Lecture and individual and group exercises conducted in class are used as a context for introducing chemistry principles.
+Corequisite(s): CHEM024 HM
+
+========================================
+
+Course: CHEM047 HM The Chemistry of Cooking
+----------------------------------------
+Credit(s): 1
+Instructor(s): Johnson, Van Heuvelen, Zhuang
+Offered: Fall and Spring
+Description: The chemistry of food, as explored through hands-on experiments in a cooking laboratory.
+
+========================================
+
+Course: CHEM048 HM Computations in Chemistry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Zhuang
+Offered: Spring
+Description: This course introduces students to a wide range of computation tools used in chemistry through computational projects in Python while exploring certain central chemical concepts. Topics include the basics of quantum chemistry orbital calculations, molecular simulations of liquids and biochemical systems, cheminformatics, and the use of programming to study chemical reactions and model chemical systems. Besides exposure to computational techniques in chemistry, the students will also deepen their understanding of molecular systems and chemical principles and develop skills in modeling and analysis of complex chemical problems.
+Prerequisite(s): CSCI005 HM
+Corequisite(s): CHEM042 HM
+
+========================================
+
+Course: CHEM051 HM Foundations of Physical Chemistry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Healy, Hernandez-Castillo, Zhuang
+Offered: Fall
+Description: This course examines the structures and interactions of molecules and how these microscopic behaviors connect with the macroscopic chemical properties that we observe. It looks into how physical laws apply in the molecular world. Topics include introductory quantum chemistry, thermodynamics, statistical thermodynamics, kinetics, and non-equilibrium systems.
+Prerequisite(s): CHEM024 HM and CHEM042 HM
+
+========================================
+
+Course: CHEM053 HM Physical Chemistry Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Healy and Hernandez-Castillo
+Offered: Fall
+Description: Experimental investigations covering fundamental physical chemistry concepts including thermodynamics, kinetics and phase-change behavior, as well as gas laws and other phenomena.
+Corequisite(s): CHEM051 HM
+
+========================================
+
+Course: CHEM056 HM Organic Chemistry I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Brucks, Haushalter, Vosburg
+Offered: Fall
+Description: This course introduces the fundamental chemical properties and reactions of carbon-containing compounds, with particular emphasis on synthesis, reaction mechanisms, and spectroscopic characterization. The course focuses on developing molecular understanding and problem-solving skills as a foundation for future study in the chemical, biological, and materials sciences.
+Prerequisite(s): CHEM042 HM and CHEM024 HM
+
+========================================
+
+Course: CHEM058 HM Organic Chemistry I Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Brucks, Haushalter, Johnson, Vosburg
+Offered: Fall
+Description: A laboratory course introducing the fundamental techniques of synthetic organic chemistry with a particular emphasis on green chemistry and chemical safety. Most experiments are performed individually to build confidence in reaction purification, molecular characterization, and material handling under a variety of conditions. The course focuses on classes of organic molecules and reactions learned in CHEM056 HM and thus should be taken concurrently.
+Prerequisite(s): CHEM024 HM
+Corequisite(s): CHEM056 HM
+
+========================================
+
+Course: CHEM080 HM Numerical Methods for the Central Science
+----------------------------------------
+Credit(s): 3
+Instructor(s): Kavassalis
+Offered: Spring
+Description: This course is an introduction to scientific computing in chemistry. Students will be introduced to the computational techniques used in modern chemistry research. Problems from multiple subdisciplines of chemistry will be chosen such that students will learn mathematical, computer-based problem-solving, data analysis, and data visualization relevant to the modern chemistry landscape.
+Prerequisite(s): CHEM042 HM, (CSCI005 HM or CSCI042 HM), and MATH073 HM
+
+========================================
+
+Course: CHEM103 HM Chemical Analysis
+----------------------------------------
+Credit(s): 3
+Instructor(s): Hawkins, Van Ryswyk
+Offered: Spring
+Description: Applications of chemical equilibria in qualitative and quantitative analysis with emphasis on inorganic systems. Introduction to electrochemistry, mass spectrometry, and chromatography.
+Prerequisite(s): CHEM042 HM and CHEM024 HM
+Concurrent Requisite(s): CHEM109 HM is recommended
+
+========================================
+
+Course: CHEM104 HM Inorganic Chemistry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Johnson, Van Heuvelen
+Offered: Spring
+Description: Systematic study of the preparation, properties, structures, analysis, and reactions of inorganic compounds.
+Prerequisite(s): CHEM056 HM; CHEM106 HM recommended
+
+========================================
+
+Course: CHEM105 HM Organic Chemistry II
+----------------------------------------
+Credit(s): 3
+Instructor(s): Brucks, Haushalter, Ogba, Vosburg
+Offered: Spring
+Description: This course continues the study of chemical properties and reactions of carbon-containing compounds, with particular emphasis on aromatic systems and carbonyl compounds. The course focuses on developing molecular understanding and problem-solving skills as a foundation for future study in the chemical, biological, and materials sciences.
+Prerequisite(s): CHEM056 HM
+Concurrent Requisite(s): CHEM111 HM is recommended
+
+========================================
+
+Course: CHEM106 HM Physical Chemistry IIA Quantum Chemistry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Hernandez-Castillo, Zhuang
+Offered: Spring
+Description: We will discuss the foundations of quantum mechanics as applicable to problems in chemistry. The course covers fundamental topics in quantum chemistry: wave-particle duality, solutions to several cases of the Schrodinger Equation, interpretation and rationalization of spectroscopic measurements, and electronic structure calculations.
+Prerequisite(s): CHEM051 HM or PHYS051 HM
+
+========================================
+
+Course: CHEM109 HM Chemical Analysis Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Hawkins, Van Ryswyk
+Offered: Spring
+Description: Cooperative, project-based application of chemical analysis in a tropical marine ecosystem. Techniques include spectrophotometry, potentiometry, chromatography, and redox and complexometric titrations.
+Corequisite(s): CHEM103 HM
+
+========================================
+
+Course: CHEM110 HM Inorganic Chemistry Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Johnson, Van Heuvelen
+Offered: Spring
+Description: Synthesis and characterization of inorganic compounds.
+Prerequisite(s): CHEM058 HM
+Corequisite(s): CHEM104 HM
+
+========================================
+
+Course: CHEM111 HM Organic Chemistry II Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Brucks, Haushalter, Johnson, Ogba, Vosburg
+Offered: Spring
+Description: A laboratory course featuring applications of synthetic organic chemistry with a particular emphasis on green chemistry and developing laboratory independence. Most experiments are performed individually to build confidence in reaction purification, molecular characterization, and material handling under a variety of conditions. The course focuses on classes of organic molecules and reactions learned in CHEM105 HM and thus should be taken concurrently.
+Prerequisite(s): CHEM058 HM
+Corequisite(s): CHEM105 HM
+
+========================================
+
+Course: CHEM112 HM Instrumental Analysis Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Hawkins, Van Ryswyk
+Offered: Spring
+Description: Application of advanced analytical techniques to food, pharmaceutical, materials, forensics, biochemical, and archaeological problems. Techniques include atomic absorption spectroscopy, fluorescence, mass spectrometry, NMR, chromatography, voltammetry, and a range of surface analyses.
+Prerequisite(s): CHEM103 HM and CHEM109 HM
+Corequisite(s): CHEM114 HM
+
+========================================
+
+Course: CHEM114 HM Advanced Analytical Chemistry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Hawkins, Van Ryswyk
+Offered: Spring
+Description: Fundamentals of modern instrumental design, application, and usage with an emphasis on the underlying principles of operation. Chemometrics.
+Prerequisite(s): CHEM103 HM
+
+========================================
+
+Course: CHEM116 HM Physical Chemistry 2: Material Chemistry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Healy
+Offered: Fall
+Description: This course covers "macroscopic" physical chemistry topics, including materials chemistry, phase transitions, metastable materials, non-covalent interactions (particularly at surfaces and interfaces), the thermodynamic and kinetic behavior of bulk materials, and structure-property relationships.
+Prerequisite(s): CHEM051 HM
+
+========================================
+
+Course: CHEM122 HM Nanomaterials
+----------------------------------------
+Credit(s): 2
+Instructor(s): Van Ryswyk
+Offered: Fall
+Description: New strategies for the synthesis and preparation of materials on the nanometer length scale, their characterization, and potential applications. Examples may include solids (insulators, semiconductors, conductors, superconductors, magnetic materials) and soft materials (polymers, gels, liquid crystals).
+Prerequisite(s): CHEM106 HM or ENGR086 HM or PHYS051 HM
+
+========================================
+
+Course: CHEM150 HM Research in Chemistry
+----------------------------------------
+Credit(s): 0.5-2
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Independent study or research in a field agreed upon by student and instructor. Credit hours to be arranged.
+Grading Type: Pass/No-Pass
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: CHEM151 HM Senior Thesis Research in Chemistry
+----------------------------------------
+Credit(s): 2-3
+Instructor(s): Staff
+Offered: Fall
+Description: A yearlong experimental or computational investigation in chemistry under the direction of a faculty advisor. Two oral reports and a written thesis are required. Two or three credit hours per semester (2 credit hours equals a minimum of 6 hours of laboratory per week, 3 credit hours equals a minimum of 10 hours of laboratory per week: additional library time is required).
+Prerequisite(s): Senior standing
+
+========================================
+
+Course: CHEM152 HM Senior Thesis Research in Chemistry
+----------------------------------------
+Credit(s): 2-3
+Instructor(s): Staff
+Offered: Spring
+Description: A yearlong experimental or computational investigation in chemistry under the direction of a faculty advisor. Two oral reports and a written thesis are required. Two or three credit hours per semester (2 credit hours equals a minimum of 6 hours of laboratory per week, 3 credit hours equals a minimum of 10 hours of laboratory per week: additional library time is required).
+Prerequisite(s): Senior standing
+
+========================================
+
+Course: CHEM161 HM Advanced Physical Chemistry: Classical and Statistical Thermodynamics
+----------------------------------------
+Credit(s): 2
+Instructor(s): Zhuang
+Description: Classical and statistical thermodynamics. Classical thermodynamics, a review of equilibrium thermodynamics, and an introduction to statistical thermodynamics.
+Prerequisite(s): CHEM116 HM or PHYS117 HM
+
+========================================
+
+Course: CHEM163 HM Advanced Physical Chemistry: Advanced Group Theory
+----------------------------------------
+Credit(s): 2
+Instructor(s): Johnson
+Description: A survey of topics selected from: space groups and crystals; permutation groups and molecular isomerization; rotation groups and angular momenta; double groups and magnetism; groups of non-rigid molecules; the symmetry of graphs.
+Prerequisite(s): CHEM106 HM
+
+========================================
+
+Course: CHEM164 HM Advanced Physical Chemistry: Electronic Structure Theory
+----------------------------------------
+Credit(s): 2
+Instructor(s): Hernandez-Castillo, Zhuang
+Description: An examination of modern methods for approximating the solution to the electronic Schroedinger Equation and its application to chemical systems.
+Prerequisite(s): CHEM106 HM and PHYS051 HM
+
+========================================
+
+Course: CHEM165 HM Organometallic Chemistry
+----------------------------------------
+Credit(s): 2
+Instructor(s): Johnson
+Description: Study of the metal carbon bond: synthesis, structure, bonding, reactivity, and catalysis.
+Prerequisite(s): Prerequisite(s): Junior or Senior standing.
+
+========================================
+
+Course: CHEM166 HM Industrial Chemistry
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Description: Elements of chemical engineering for chemists. Organization and goals of industrial research. Readings, case studies, and seminar discussions.
+Prerequisite(s): CHEM051 HM
+
+========================================
+
+Course: CHEM167 HM Biophysical Chemistry
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Offered: Spring
+Description: Physical chemistry applied to answer questions involving the conformation, shape, structure, dynamics, and interactions of biological macromolecules and complexes.
+Prerequisite(s): CHEM051 HM
+
+========================================
+
+Course: CHEM168 HM Lasers in Chemistry
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Introduction to principles of lasers and laser safety. Case studies illustrating the applications of lasers to chemical studies.
+Prerequisite(s): CHEM051 HM and PHYS051 HM
+Corequisite(s): Juniors and seniors only.
+
+========================================
+
+Course: CHEM170 HM Chemistry of the Oceans and Atmosphere
+----------------------------------------
+Credit(s): 3
+Instructor(s): Hawkins, Kavassalis
+Offered: Spring
+Description: An advanced chemistry course exploring the most important chemical systems of the oceans and atmosphere including ocean acidification and alkalinity, eutrophication, biogeochemical cycling, global climate change, stratospheric ozone, and the chemistry of ground-level air pollution. Includes chemical mechanisms, and thermodynamic and kinetic considerations for these canonical systems.
+Prerequisite(s): CHEM051 HM and CHEM056 HM
+
+========================================
+
+Course: CHEM171 HM Advanced Organic Chemistry: Organic Synthesis
+----------------------------------------
+Credit(s): 2
+Instructor(s): Brucks, Vosburg
+Description: Critical analysis of strategies for the preparation of medicinal natural products with consideration of green chemistry principles.
+Prerequisite(s): CHEM056 HM and CHEM105 HM
+
+========================================
+
+Course: CHEM173 HM Advanced Organic Chemistry: Pericyclic Reactions
+----------------------------------------
+Credit(s): 2
+Instructor(s): Vosburg
+Description: The application of molecular orbital theory and symmetry considerations to certain types of organic reactions in order to gain insight on the mechanisms and stereochemistry of the processes.
+Prerequisite(s): CHEM056 HM and CHEM105 HM
+
+========================================
+
+Course: CHEM182 HM Biochemistry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Brucks, Haushalter, Vosburg
+Offered: Spring
+Description: Relation of molecular structure and energy flow to metabolic reactions, signal transduction, and transport across membranes in living systems. (Crosslisted as BIOL182 HM)
+Prerequisite(s): CHEM056 HM and Junior/Senior Standing.
+
+========================================
+
+Course: CHEM184 HM Biochemistry Laboratory
+----------------------------------------
+Credit(s): 1
+Instructor(s): Brucks, Haushalter, Vosburg
+Offered: Spring
+Description: Experiments in biochemistry. (Crosslisted as BIOL184 HM)
+Corequisite(s): CHEM182 HM or BIOL182 HM
+
+========================================
+
+Course: CHEM187 HM HIV-Aids: Science, Society, and Service
+----------------------------------------
+Credit(s): 3
+Instructor(s): Haushalter
+Description: The molecular biology of HIV infection, the biochemistry of antiviral interventions, and the causes and impact of the global HIV-AIDS pandemic, including the inter-relationships among HIV-AIDS, prejudice, race, and stigma. (Crosslisted as BIOL 187 HM)
+Prerequisite(s): BIOL 113 HM and (BIOL182 HM or CHEM182 HM)
+
+========================================
+
+Course: CHEM189 HM Topics in Biochemistry and Molecular Biology
+----------------------------------------
+Credit(s): 3
+Instructor(s): Haushalter, Hur (Biology), Schulz (Biology), Stoebel (Biology)
+Offered: Fall
+Description: Advanced topics at the interface between chemistry and biology. Counts as a seminar course for Biology majors. (Crosslisted as BIOL189 HM)
+Prerequisite(s): BIOL113 HM and senior standing
+
+========================================
+
+Course: CHEM190 HM Bioinorganic Chemistry
+----------------------------------------
+Credit(s): 2
+Instructor(s): Van Heuvelen
+Description: An examination of the role of metals in biological systems. Topics may include electron transport, small molecule activation, signaling pathways, metals in medicine, metals in environmental science, metal storage and trafficking, and bioinorganic chemistry and energy.
+Corequisite(s): CHEM104 HM
+
+========================================
+
+Course: CHEM192 HM Material Science of Energy Conversion and Storage
+----------------------------------------
+Credit(s): 2
+Instructor(s): Saeta (Physics), Van Ryswyk
+Description: Materials science of energy conversion and storage, dealing with photovoltaics, fuel cells, batteries, thermoelectrics, and other devices. Seminar format. (Crosslisted as ENGR147 HM and PHYS147 HM)
+Prerequisite(s): CHEM106 HM or PHYS052 HM or ENGR086 HM
+
+========================================
+
+Course: CHEM193 HM Special Topics in Chemistry
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff
+Description: A course devoted to exploring topics of current interest. Topics announced prior to registration.
+Prerequisite(s): Dependent on topic
+
+========================================
+
+Course: CHEM194 HM Chemistry of Modern Materials
+----------------------------------------
+Credit(s): 2
+Instructor(s): Brucks
+Description: A survey of current research at the interface of chemistry and materials with a focus on the rational design of soft materials for biomimetic and medicinal applications, including imaging, diagnostics, and therapeutics. Lectures will be interspersed with classroom discussions and student presentations based on recent literature.
+Prerequisite(s): CHEM056 HM or equivalent required.BIOL182 HM or CHEM182 HM or equivalent recommended. Juniors and seniors only.
+
+========================================
+
+Course: CHEM195 HM Physics and Chemistry of Stuff
+----------------------------------------
+Credit(s): 2
+Instructor(s): Staff, Eckert (Physics)
+Description: A survey of techniques important for laboratory science in chemistry and physics including but not limited to: Vacuum pumps and vacuum systems; pressure measurement; temperature measurement; handling high pressure gases; safe material handling; safety data sheets; thermal baths and thermal control; metal, plastic, and rubber tubing; tools and their proper use. One meeting per week for the semester.
+Prerequisite(s): Junior or senior standing.
+
+========================================
+
+Course: CHEM197 HM Readings in Chemistry
+----------------------------------------
+Credit(s): 0.5-3
+Instructor(s): Staff
+Offered: Fall
+Description: Special readings in chemistry. Open to juniors and seniors only. One to three credit hours per semester.
+
+========================================
+
+Course: CHEM198 HM Special Readings in Chemistry
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Offered: Spring
+Description: Special readings in chemistry. Open to juniors and seniors only. One to three credit hours per semester.
+
+========================================
+
+Course: CHEM199 HM Chemistry Seminar
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Presentations of contemporary research by students, faculty, and visiting scientists. Attendance by junior and senior majors is required. No more than 2.0 credits can be earned for departmental seminars/colloquia.
+Grading Type: Pass/No-Pass
+
+========================================
+

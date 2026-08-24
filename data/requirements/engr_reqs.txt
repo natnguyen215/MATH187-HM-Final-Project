@@ -1,0 +1,577 @@
+Course: ENGR004 HM Introduction to Engineering Design and Manufacturing
+----------------------------------------
+Credit(s): 4
+Instructor(s): Mendelson, Santana
+Offered: Fall and Spring
+Description: Design problems are, typically, open-ended and ill-structured. Students work in small teams applying techniques for solving design problems that are, normally, posed by not-for-profit clients. The project work is enhanced with lectures and reading on design theory and methods, and introduction to manufacturing techniques, project management techniques and engineering ethics. Enrollment limited to first-year students and sophomores, or by permission of the instructor.
+Prerequisite(s): WRIT001 HM
+Corequisite(s): PHYS024 HM
+
+========================================
+
+Course: ENGR015 HM Introduction to Aviation
+----------------------------------------
+Credit(s): 1
+Instructor(s): Harris
+Offered: Fall & Spring
+Description: Team project to build an experimental aircraft. The current project is a Vans RV12is two-seat light sport aircraft fabricated primarily from sheet metal and pop rivets, with a 100 horsepower Rotax engine and Garmin VFR avionics.
+Grading Type: Pass/No-Pass
+
+========================================
+
+Course: ENGR025 HM Prototyping Your Mudd
+----------------------------------------
+Credit(s): 1
+Instructor(s): Lape
+Offered: Spring
+Description: Prototyping Your Mudd is a course that guides you through using the Engineering Design process to make the most out of your time at HMC. Topics include the purpose of college, the HMC mission and your HMC experience, how to design the Engineering major to fit your interests, and how to prototype academic, professional, and co-curricular activities to help you determine which potential pathways best align with your personal philosophy and interests. The course will incorporate small group discussion, in-class activities, personal reflection, and prototypes outside of class time. By the end of this course, you should be able to use the design process to develop and prototype plans for your life and career at HMC and beyond, and to continuously adapt these plans as your life (and the world) evolves.
+Grading Type: Pass/No-Pass
+
+========================================
+
+Course: ENGR026 HM Prototyping Your Future Self
+----------------------------------------
+Credit(s): 1
+Instructor(s): Lape
+Description: This course guides students through using Human-Centered Design (HCD) techniques to design their lives and careers. This course is loosely based on one of Stanford University's most popular courses, "Designing Your Life," but is customized for HMC Engineering seniors. Course topics include the integration of one's worldview and philosophy of work, the HMC mission and one's experience beyond HMC, how to design a career to fit one's interests, and how to prototype professional and personal activities to help students determine which potential pathways best align with their personal philosophy and interests. The course incorporates small group discussion, in-class activities, guest speakers, personal reflection, and individual coaching. By the end of the course students will have developed and prototyped several potential life plans for the 3-5 years following graduation and will be equipped with tools to navigate their careers and lives through future changes.
+Grading Type: Pass/No-Pass
+Prerequisite(s): Seniors only.
+
+========================================
+
+Course: ENGR072 HM Applied Mathematics for Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bassman, Lape, Yong (Mathematics)
+Offered: Spring
+Description: Mathematical tools for solving engineering problems, including dimensional analysis, differential equations (linear and nonlinear systems), linear algebra, Fourier analysis (Fourier series and transform), optimization techniques. Focus on analytic and numerical techniques throughout, along with the sense-making skills necessary for students to choose appropriate tools for the problem at hand.
+Prerequisite(s): MATH019 HM, MATH073 HM, and ENGR079 HM
+Corequisite(s): ENGR080 HM
+
+========================================
+
+Course: ENGR079 HM Introduction to Engineering Systems
+----------------------------------------
+Credit(s): 4
+Instructor(s): Staff
+Offered: Fall
+Description: An introduction to the concepts of modern engineering, emphasizing modeling, analysis, synthesis, and design. Applications to chemical, mechanical, and electrical systems.
+A course materials fee, payable to the HMC Department of Engineering, applies. No textbook purchase required.
+Prerequisite(s): PHYS024 HM
+
+========================================
+
+Course: ENGR080 HM Experimental Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: A laboratory course designed to acquaint the student with the basic techniques of instrumentation and measurement in both the laboratory and in engineering field measure­ments. Emphasis on experimental problem solving in real systems.
+Prerequisite(s): ENGR079 HM
+Corequisite(s): MATH056 HM and ENGR072 HM
+
+========================================
+
+Course: ENGR082 HM Chemical and Thermal Processes
+----------------------------------------
+Credit(s): 3
+Instructor(s): Lape, Spjut
+Offered: Fall and Spring
+Description: The basic elements of thermal and chemical processes, including: state variables, open and closed systems, and mass balance; energy balance, First Law of Thermodynamics for reactive and non-reactive systems; entropy balance, Second Law of Thermodynamics, thermodynamic cycles, and efficiency.
+Prerequisite(s): CHEM042 HM
+
+========================================
+
+Course: ENGR083 HM Continuum Mechanics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bassman
+Offered: Fall and Spring
+Description: The fundamentals of modeling continuous media, including: stress, strain and constitutive relations; elements of tensor analysis; basic applications of solid and fluid mechanics (including beam theory, torsion, statically indeterminate problems, and Bernoulli's principle); application of conservation laws to control volumes.
+Prerequisite(s): ENGR079 HM and PHYS024 HM
+
+========================================
+
+Course: ENGR084 HM Electronic and Magnetic Circuits and Devices
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Introduction to the fundamental principles underlying electronic devices and applications of these devices in circuits. Topics include electrical properties of materials; physical electronics (with emphasis on semiconductors and semiconductor devices); passive linear electrical and magnetic circuits; active linear circuits (including elementary transistor amplifiers and the impact of non-ideal characteristics of operational amplifiers on circuit behavior); operating point linearization and load-line analysis; electromagnetic devices such as transformers.
+Prerequisite(s): ENGR079 HM
+
+========================================
+
+Course: ENGR085 HM Digital Electronics and Computer Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Brake, Harris
+Offered: Fall and Spring
+Description: Design and implementation of digital systems. Topics include levels of abstraction, Boolean algebra, combinational logic, sequential logic, finite state machines, hardware description languages, computer arithmetic, C and assembly programming, embedded systems, and microarchitecture. Lab practices include simulation, prototyping, and debugging. The first half of ENGR085  HM through computer arithmetic may be taken by non-engineering majors as a stand-alone half course under the number ENGR085A HM.
+Prerequisite(s): CSCI005 HM or CSCI005GR HM or CSCI042 HM. No first-year students.
+
+========================================
+
+Course: ENGR085A HM Digital Electronics
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Brake, Harris
+Offered: Fall and Spring
+Description: This course provides an introduction to elements of digital electronics, intended for non-engineering majors who may be interested in pursuing other advanced engineering courses that require this background. Lectures for this course coincide with lectures for the first half of ENGR085 HM.
+Prerequisite(s): CSCI005 HM or CSCI005GR HM or CSCI042 HM. No first-year students.
+
+========================================
+
+Course: ENGR086 HM Materials Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Dato, Krauss
+Offered: Fall and Spring
+Description: Introduction to the structure, properties, and processing of materials used in engineering applications. Topics include: material structure (bonding, crystalline and non-crystalline structures, imperfections); equilibrium microstructures; diffusion, nucleation, growth, kinetics, non-equilibrium processing; microstructure, properties and processing of: steel, ceramics, polymers and composites; creep and yield; fracture mechanics; and the selec­tion of materials and appropriate performance indices.
+Prerequisite(s): CHEM042 HM, MATH019 HM, MATH073 HM, and PHYS024 HM
+
+========================================
+
+Course: ENGR091 HM Intermediate Problems in Engineering
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Description: Independent study in a field agreed upon by student and instructor. Credit hours to be arranged.
+
+========================================
+
+Course: ENGR101 HM Advanced Systems Engineering I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Cha, Clark, Durón, Yang
+Offered: Fall
+Description: Analysis and design of continuous-time and discrete-time systems using time domain and frequency domain techniques. The first semester focuses on the connections and distinctions between continuous-time and discrete-time signals and systems and their representation in the time and frequency domains. Topics include impulse response, convolution, continuous and discrete Fourier series and transforms, and frequency response. Current applications, including filtering, modulation and sampling, are presented, and simula­tion techniques based on both time and frequency domain representations are introduced. In the second semester additional analysis and design tools based on the Laplace- and z-transforms are developed, and the state space formulation of continuous and discrete-time systems is presented. Concepts covered during both semesters are applied in a comprehensive treatment of feedback control systems including performance criteria, stability, observability, controllability, compensa­tion and pole placement.
+Prerequisite(s): ENGR072 HM, ENGR079 HM, and ENGR080 HM
+
+========================================
+
+Course: ENGR102 HM Advanced Systems Engineering II
+----------------------------------------
+Credit(s): 3
+Instructor(s): Cha, Clark, Durón, Yang
+Offered: Spring
+Description: Analysis and design of continuous-time and discrete-time systems using time domain and frequency domain techniques. The first semester focuses on the connections and distinctions between continuous-time and discrete-time signals and systems and their representation in the time and frequency domains. Topics include impulse response, convolution, continuous and discrete Fourier series and transforms, and frequency response. Current applications, including filtering, modulation and sampling, are presented, and simula­tion techniques based on both time and frequency domain representations are introduced. In the second semester additional analysis and design tools based on the Laplace- and z-transforms are developed, and the state space formulation of continuous and discrete-time systems is presented. Concepts covered during both semesters are applied in a comprehensive treatment of feedback control systems including performance criteria, stability, observability, controllability, compensa­tion and pole placement.
+Prerequisite(s): ENGR101 HM
+
+========================================
+
+Course: ENGR111 HM Engineering Clinic I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gokli, staff
+Offered: Fall and Spring
+Description: Participation in engineering projects through the Engineering Clinic. Emphasis is on design of solutions for real problems, involving problem definition, synthesis of concepts, analysis, and evaluation.
+Prerequisite(s): ENGR080 HM and junior standing, or permission of Clinic director.
+Concurrent Requisite(s): ENGR122 HM
+
+========================================
+
+Course: ENGR112 HM Engineering Clinic II
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gokli, staff
+Offered: Fall
+Description: Participation in engineering projects through the Engineering Clinic. Emphasis is on design of solutions for real problems, involving problem definition, synthesis of concepts, analysis, and evaluation.
+Prerequisite(s): ENGR004 HM, ENGR080 HM, and ENGR111 HM or permission of Clinic director
+
+========================================
+
+Course: ENGR113 HM Engineering Clinic III
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gokli, staff
+Offered: Spring
+Description: Participation in engineering projects through the Engineering Clinic. Emphasis is on design of solutions for real problems, involving problem definition, synthesis of concepts, analysis, and evaluation.
+Prerequisite(s): ENGR004 HM, ENGR080 HM, and ENGR112 HM or permission of Clinic director
+
+========================================
+
+Course: ENGR114 HM Engineering Clinic
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Harris, staff
+Offered: Spring
+Description: A continuation of Engineering Clinic for juniors who elect a second semester.
+Prerequisite(s): Permission of Clinic director
+
+========================================
+
+Course: ENGR122 HM Engineering Seminar
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Weekly meetings devoted to discussion of engineering practice. Required of junior engineering majors. No more than 2.0 credits can be earned for departmental seminars/col­loquia.
+Grading Type: Pass/No-Pass
+Prerequisite(s): Juniors only
+Concurrent Requisite(s): ENGR111 HM
+
+========================================
+
+Course: ENGR124 HM Engineering Seminar
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Spring
+Description: Weekly meetings devoted to the discussion of engineering practice. Required of senior engineering majors. No more than 2.0 credits can be earned for departmental seminars/col­loquia.
+Grading Type: Pass/No-Pass
+Prerequisite(s): Seniors only
+
+========================================
+
+Course: ENGR131 HM Fluid Mechanics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Lape
+Offered: Fall
+Description: Integrated approach to the subjects of fluid mechanics, heat transfer, and mass transfer through the study of the governing equations common to all three fields. Applications drawn from a wide variety of engineering systems.
+Prerequisite(s): ENGR083 HM
+
+========================================
+
+Course: ENGR132 HM Heat and Mass Transfer
+----------------------------------------
+Credit(s): 3
+Instructor(s): Lape
+Offered: Spring, alternate years
+Description: Integrated approach to heat and mass transfer through the study of the governing equations common to both fields. Principles of conduction, diffusion, convection, and radiation and their use in engineering design and analysis. An overview of chemical separation process design. Applications drawn from a wide variety of engineering disciplines, including environmental, biomedical, mechanical, and chemical engineering.
+Prerequisite(s): ENGR082 HM
+
+========================================
+
+Course: ENGR133 HM Chemical Reaction Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Spjut
+Offered: Fall, alternate years
+Description: The fundamentals of chemical reactor engineering: chemical reaction kinetics, interpretation of experimental rate data, design of batch and continuous reactors for single and multiple reactions including temperature and pressure effects, and the importance of safety considerations in reactor design.
+Prerequisite(s): ENGR082 HM
+
+========================================
+
+Course: ENGR134 HM Advanced Engineering Thermodynamics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Lape, Spjut
+Offered: Spring, alternate years
+Description: The application of classical thermodynamics to engineering systems. Topics include power and refrigeration cycles, energy and process efficiency, real gases and non-ideal phase, and chemical reaction equilibria.
+Prerequisite(s): ENGR082 HM
+
+========================================
+
+Course: ENGR138 HM Introduction to Environmental Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Fowler
+Offered: Fall
+Description: Students in this course will build technical skills central to the field of environmental engineering to model and design solutions for contaminated water, air, and land systems that could pose a threat to human health or the environment. To design the best solutions to complex problems, students will also build a conceptual framework of how the stakeholders and scientific fields are interconnected in environmental challenges through discussing real environmental crises and solutions in California. The technical skills that students will gain include: (1) modeling the transport of water, air, and contaminants by applying mass and energy balance principles to environmental systems, including surface water, groundwater, and atmospheric systems; (2) calculating important metrics of water/air/soil quality (e.g. dissolved oxygen, concentration of contaminants) to determine how they change over time and location; (3) evaluating the risk of contaminants to human health and the environment; and (4) designing engineered solutions to treat these systems, including water and wastewater treatment systems.
+Prerequisite(s): ENGR082 HM
+
+========================================
+
+Course: ENGR147 HM Material Science of Energy Conversion and Storage
+----------------------------------------
+Credit(s): 2
+Instructor(s): Saeta (Physics), Van Ryswyk (Chemistry)
+Description: Materials science of energy conversion and storage, dealing with photovoltaics, fuel cells, batteries, thermoelectrics, and other devices. Seminar format. (Crosslisted as CHEM192 HM and PHYS147 HM)
+Prerequisite(s): CHEM106 HM or PHYS052 HM or ENGR086 HM
+
+========================================
+
+Course: ENGR151 HM Analog Circuit Design
+----------------------------------------
+Credit(s): 4
+Instructor(s): Spencer
+Offered: Spring
+Description: Design and analysis of electronic circuits based on semiconductor devices (e.g. pn diode, MOSFET, BJT), particularly linear amplifiers including operational amplifiers and associated building blocks. Includes a laboratory focused on experimental realization and measurement of electronic devices and circuits.
+Prerequisite(s): ENGR079 HM and ENGR084 HM
+
+========================================
+
+Course: ENGR154 HM System-on-Chip Design
+----------------------------------------
+Credit(s): 3
+Instructor(s): Harris
+Description: System-on-chip design of a RISC-V based platform. Topics include RISC-V architecture, C and assembly language programming and debugging, platform emulation, Linux-based workflow automation, SystemVerilog, logic synthesis and validation, pipelined microarchitecture, privileged operations, bus interfaces and peripherals, memory systems, branch prediction, computer arithmetic, benchmarking, operating systems, and silicon implementation. Class project involving design and optimization.
+Prerequisite(s): ENGR085 HM or (ENGR085A HM and CSCI105 HM)
+
+========================================
+
+Course: ENGR155 HM Microprocessor-Based Systems: Design and Applications
+----------------------------------------
+Credit(s): 4
+Instructor(s): Brake, Harris
+Offered: Fall
+Description: Introduction to digital design using programmable logic and microprocessors. Combinational and sequential logic. Finite state machines. Hardware description languages. Field programmable gate arrays. Microcontrollers and embedded system design. Students gain experience with complex digital system design, embedded programming, and hardware/software trade-offs through significant laboratory and project work.
+Prerequisite(s): ENGR085 HM or (ENGR085A HM and CSCI060 HM)
+
+========================================
+
+Course: ENGR157 HM Radio Frequency Circuit Design
+----------------------------------------
+Credit(s): 3
+Instructor(s): Spencer
+Offered: Fall
+Description: Design and analysis of high speed communication circuits with an emphasis on microwave design, measurement techniques, and wireless communication links.
+Prerequisite(s): ENGR084 HM
+Corequisite(s): ENGR101 HM
+
+========================================
+
+Course: ENGR164 HM Introduction to Biomedical Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring, alternate years
+Description: The application of engineering principles to help pose and solve problems in medicine and biology. Focus on different aspects, particularly biomedical measurements, biosystems analysis, biomechanics, and biomaterials.
+Prerequisite(s): BIOL046 HM, ENGR079 HM, and junior standing.
+
+========================================
+
+Course: ENGR168 HM Introduction to Fiber Optic Communication Systems
+----------------------------------------
+Credit(s): 3
+Instructor(s): Yang
+Offered: Spring, alternate years
+Description: This course provides the fundamentals of optics and its applications in communication systems. The physical layer of optical communication systems will be emphasized. Topics include optical materials; dispersion and nonlinear effects; polarization and interference; and the basic elements of system implementation such as laser sources, optical amplifiers, and optical detectors. The course will include a multiple channel system design.
+Prerequisite(s): ENGR079 HM
+
+========================================
+
+Course: ENGR171 HM Dynamics of Elastic Systems
+----------------------------------------
+Credit(s): 3
+Instructor(s): Cha, Durón
+Offered: Fall
+Description: Free and forced response of single-degree-of-freedom systems. Eigenvalue problem for multi-degree-of-freedom systems; natural modes of free vibration. Forced response of un­damped and viscously damped, multi-degree-of-freedom systems by modal analysis.
+Prerequisite(s): ENGR083 HM
+
+========================================
+
+Course: ENGR172 HM Structural Mechanics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bassman, Cha
+Offered: Spring
+Description: Introduction to elementary structural systems: trusses, beams. Force and deflection analysis. Energy methods. Stability. Introduction to finite element methods.
+Prerequisite(s): ENGR083 HM
+
+========================================
+
+Course: ENGR175 HM Dynamics of Rigid Bodies
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bassman
+Description: Kinematics, mass distribution, and kinetics of systems of particles and rigid bodies. Formulation of equations of motion with: Newton/Euler equations; angular momentum prin­ciple; power, work and energy methods. Numerical solutions of nonlinear algebraic and ordinary differential equations governing the behavior of multiple degree of freedom systems. Computer simulation of multi-body dynamic systems. Construction of physical systems for comparison with simulation.
+Corequisite(s): ENGR083 HM
+
+========================================
+
+Course: ENGR176 HM Numerical Methods in Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Cha
+Offered: Spring, alternate years
+Description: This course focuses on the application of a variety of mathematical techniques to solve real-world problems that involve modeling, mathematical and numerical analysis, and scientific computing. Concepts, calculations and the ability to apply principles to physical prob­lems are emphasized. Ordinary differential equations, linear algebra, complex analysis, numerical methods, partial differential equations, probability and statistics, etc., are among the techniques that would be applied to problems in mechanical, electrical, chemical and civil engineering. Examples are drawn from fluid mechanics, heat transfer, vibration of structures, electromagnet­ics, communications and other applied topics. Program development and modification are expected as well as learning to use existing code.
+Prerequisite(s): ENGR072 HM
+
+========================================
+
+Course: ENGR177 HM Mechanical Design
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: In this project-based course, students will gain hands-on experience designing, analyzing, and fabricating mechanical systems. Topics include CAD and technical drawings; design for static loading and fatigue; fasteners and connections; motor selection; machine elements (e.g., gears, belts, shafts, bearings, springs); material selection; and compliant mechanisms.
+Prerequisite(s): ENGR004 HM and ENGR083 HM
+
+========================================
+
+Course: ENGR178 HM High Power Rocketry
+----------------------------------------
+Credit(s): 3
+Instructor(s): Spjut
+Offered: Spring
+Description: This course uses high power rockets as a vehicle for learning and demonstrating competence in modeling, experimental data collection and data analysis of rigid body and flight dynamics. In particular, students will perform 1-D analytical and numerical characterization of flight data including motor performance, testing and characterization of avionics and telemetry, develop and use models for inertial navigation and sensor fusion, and characterize structural dynamics during flight. The final project will demonstrate all of the above from data the students collect during flights of the rockets the students will construct and instrument, designed to reach Mach 1.6 and an altitude of 13,000 ft.
+Prerequisite(s): ENGR080 HM for Engineering majors or the combination of ENGR079 HM and permission of instructor for non-majors with the appropriate background.
+Corequisite(s): Corequisites: TRA or NAR Level 1 and Level 2 certification strongly recommended but not required.
+
+========================================
+
+Course: ENGR180 HM Human Centered Design
+----------------------------------------
+Credit(s): 3
+Instructor(s): Leichter
+Description: This course introduces students to human-centered design approaches for innovative problem solving. Human-centered design begins with a deep understanding of people and social contexts. The course will include fundamental readings in design thinking, interactive design methods and processes, and hands-on projects. Students will learn how user research, synthesis, idea generation, and prototyping can be integrated into different phases of the design process. HMC engineering majors may count ENGR180 as a technical elective only if they have completed ENGR004 prior to enrolling in ENGR180.
+
+========================================
+
+Course: ENGR181 HM New Product Development
+----------------------------------------
+Credit(s): 3
+Instructor(s): Krauss
+Description: This course will introduce the theory and practice of a process used for new product development that considers design, management and manufacturing components. Students will identify needs (market or humanitarian) amenable to an engineered product solution, select and scope the project need they will address, quantify the impact of a solution through a business case, design and develop multiple prototype solutions, validate the resulting product and solicit funding for a launch.
+Prerequisite(s): Junior or senior standing and ENGR004 HM
+
+========================================
+
+Course: ENGR182 HM Manufacturing Planning and Execution
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gokli
+Offered: Spring
+Description: This course provides a fundamental understanding of manufacturing and its systems through industrial, manufacturing, and quality engineering disciplines. The course teaches three main learning modules: operations, quality, and supply chain. After designing and prototyping, students will learn how to mass-produce a product at minimum cost, highest quality, and in the fastest & most efficient manner. The course introduces students to the vocabulary, processes, and tools of manufacturing with hands-on experience.
+Prerequisite(s): ENGR004 HM
+
+========================================
+
+Course: ENGR183 HM Management of Technical Enterprise
+----------------------------------------
+Credit(s): 3
+Instructor(s): Gokli, Krauss
+Offered: Fall
+Description: This course provides a fundamental understanding of management practices in a technical enterprise. Instructors teach three main learning modules: financial management, people management and company management. Students will learn processes, tools, organiza­tion and measurables in all three learning modules.
+Prerequisite(s): ENGR004 HM and Junior standing.
+
+========================================
+
+Course: ENGR185A HM Engineering Design and Invention
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Furuya
+Offered: Fall, second half; Spring, first half
+Description: Develop a creative and innovative mindset, "thinking differently" to generate novel and patentable design ideas. Final presentation to industry panelists.
+Prerequisite(s): ENGR004 HM
+
+========================================
+
+Course: ENGR185B HM Engineering Design and Invention II
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Furuya
+Offered: Spring first and second halves
+Description: Continuation of work begun in ENGR185A HM, including the completion of the prototype developed in the prior half-semester.
+Prerequisite(s): ENGR185A HM and permission of instructor.
+
+========================================
+
+Course: ENGR186 HM Advanced Human-Centered Design
+----------------------------------------
+Credit(s): 3
+Instructor(s): Leichter
+Offered: Spring
+Description: This is a course designed for students who have taken Human-Centered Design (Engineering 180) and ask, "what's next?" In this project-based practicum, student teams will tackle one real-world design challenge with an external partner for the duration of the semester. The final deliverable will be a design 'solution' – product, service or system – that's been tested in the market and balances an understanding of user desirability, technical feasibility and sustainable viability. At the end of the semester you'll 'demo' your design solutions through an interactive presentation, supported by thorough documentation of research, process, and insights.
+Prerequisite(s): ENGR180 HM
+
+========================================
+
+Course: ENGR187 HM Operations Research
+----------------------------------------
+Credit(s): 3
+Instructor(s): Benjamin (Mathematics), Martonosi (Mathematics)
+Description: Linear, integer, non-linear and dynamic programming, classical optimization problems, and network theory. (Crosslisted as MATH187 HM)
+Prerequisite(s): MATH073 HM
+
+========================================
+
+Course: ENGR188 HM Intellectual Property Law for Scientists & Engineers
+----------------------------------------
+Credit(s): 1
+Instructor(s): Adibi
+Offered: Spring
+Description: Students will gain understanding of the fundamentals of intellectual property (IP) rights, including patents, trademarks, copyrights, and trade secrets, with a focus on how IP rights bring enterprise value. Students will learn practical skills, including the filing and registration processes for patents, trademarks and copyrights. Students will also learn about IP issues and disputes that regularly arise in the context of early stage startups, including the scope of confidentiality agreements, IP ownership, freedom to operate, and foreign rights. The course will cover many examples from real practice and discuss current topics related to IP.
+Prerequisite(s): ENGR079 HM
+
+========================================
+
+Course: ENGR189 HM Biomaterials
+----------------------------------------
+Credit(s): 3
+Instructor(s): Dato
+Offered: Spring
+Description: Introduction to various classes of biomaterials and their applications in medicine. Topics include the synthesis, properties, structure, and performance of materials that come into contact with tissue and biological fluids.
+Prerequisite(s): ENGR086 HM
+
+========================================
+
+Course: ENGR190 HM Special Topics in Engineering
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Description: An upper division or graduate technical elective treating topics in engineering not covered in other courses, chosen at the discretion of the engineering department.
+
+========================================
+
+Course: ENGR191 HM Advanced Problems in Engineering
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Description: Independent study in a field agreed upon by student and instructor. Credit hours to be arranged.
+
+========================================
+
+Course: ENGR205 HM State Estimation
+----------------------------------------
+Credit(s): 3
+Instructor(s): Mohanty
+Offered: Fall
+Description: This course explores the field of state estimation, and does so through applications in autonomous vehicles. Topics include a review of probability, state or belief representations, and an introduction to several popular filters including Bayes Filters, Kalman Filters, Extended Kalman Filters, Unscented Kalman Filters, and Particle Filters. The course will include a series of labs where students apply the different filters to real data. The course will culminate in a self-designed project in which students must find or collect their own data.
+Prerequisite(s): ENGR102 HM
+
+========================================
+
+Course: ENGR206 HM Optimization Techniques in Engineering Design
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: Presentation of techniques for making optimum choices among alternatives; applications to engineering design problems.
+Prerequisite(s): ENGR101 HM and ENGR102 HM
+
+========================================
+
+Course: ENGR207 HM Digital Signal Processing: Theory & Application
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: Deterministic and probabilistic signal processing of data in time and frequency domain. Students will be able to use various tools and concepts to process signals. These may include: Discrete Fourier transform, short time Fourier transform, dynamic time warping, probability and random variables, hidden Markov models, Gaussian Markov models, instantaneous frequency estimation, phase vocoder, and non-negative matrix factorization. Students will also develop the programming skills to build signal processing systems in practice.
+Prerequisite(s): ENGR101 HM and CSCI060 HM, or permission of instructor.
+
+========================================
+
+Course: ENGR208 HM Machine Learning: Theory & Application
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall
+Description: An introduction to modern machine learning methods and their application to signals. Students will learn to design, train, and use modern machine learning models. These may include, but are not limited to dense neural networks, convolutional neural networks, and recurrent neural networks.
+Prerequisite(s): ENGR101 HM and CSCI060 HM, or permission of instructor.
+
+========================================
+
+Course: ENGR240 HM Introduction to Compressible Flow
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring, alternate years
+Description: The effects of compressibility in the governing integral and differential equations for fluids. The effects of friction, heating and shock waves in steady one-dimensional flow. Unsteady wave motion and the method of characteristics. Two-dimensional flow over air foils, linearized potential flow and the method of characteristics for supersonic flow.
+Prerequisite(s): ENGR131 HM
+
+========================================
+
+Course: ENGR278 HM Advanced Structural Dynamics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Cha
+Offered: Spring, alternate years
+Description: Free and forced response of continuous systems, including the vibration of strings, rods, shafts, membranes, beams, and plates. One dimensional finite element methods: discretization of a continuum, selection of interpolation functions, and determining the element mass and stiffness matrices and the corresponding load vector. Introduction to special topics, including the effects of parameter uncertainties on the dynamics of periodic structures and model updating in structural dynamics.
+Prerequisite(s): ENGR171 HM
+
+========================================
+

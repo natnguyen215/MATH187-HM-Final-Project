@@ -1,0 +1,395 @@
+Course: CSCI005 HM Introduction to Computer Science
+----------------------------------------
+Credit(s): 3
+Instructor(s): Dodds, Medero, Montanez O'Neill, Stone, Wiedermann
+Offered: Fall
+Description: Introduction to the heart  of computer science. Students engage in computational problem-solving techniques and gain experience with the design, implementa­tion, testing, and documentation of programs in a high-level language. In addition, students learn to design digital devices, program in a small machine language, recognize computing's inherent limitations, and understand how computers operate in practice. Societal and ethical issues related to computer science are central.
+
+========================================
+
+Course: CSCI005GR HM Introduction to Biology and Computer Science
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bush (Biology)
+Offered: Fall
+Description: This course introduces fundamental concepts from the Core course CSCI005 HM using biology as the context for those computational ideas. Students see both the intellectual and practical connections between these two disciplines and write computer programs to explore biological phenomena. Biology topics include the basics of bio­chemistry, the central dogma, population genetics, molecular evolution, metabolism, regulation, and phylogenetics. Computer science material includes basic data types and control structures, recursion, dynamic programming, and an introduction to automata and computability. This course fulfills the computer science Core requirement at Harvey Mudd College. It does not fulfill the Harvey Mudd biology Core requirement.
+
+========================================
+
+Course: CSCI035 HM Computer Science for Insight
+----------------------------------------
+Credit(s): 3
+Instructor(s): Dodds
+Description: This course extends CSCI005 HM in developing software-composition skills. Pairing lectures and lab sessions, the experience will deepen foundations in algorithms and data structures, introduce machine learning and its mindset, weigh tradeoffs between human- and machine-efficiency, and build sophistication with computing, both assembling existing components and from-scratch design. Students will deploy and assess computing projects of their own design -- with substantive application beyond CS itself -- as the course's final capstone. The course continues in the language of CSCI005 HM and especially encourages computing efforts which contribute to fields of interest beyond CS, whether academic or extracurricular.
+Prerequisite(s): CSCI005 HM or CSCI005GR HM
+
+========================================
+
+Course: CSCI042 HM Principles and Practice of Computer Science
+----------------------------------------
+Credit(s): 3
+Instructor(s): Stone, Wiedermann
+Offered: Not offered 2025–2026
+Description: Accelerated breadth-first introduction to computer science as a discipline for students (usually first-year) who have a strong programming background. Computational models of functional and object-oriented programming. Data structures and algorithm analysis. Computer logic and architecture. Computability. Extensive practice constructing applications from principles, using a variety of languages. Successful completion of this course satisfies the CSCI005 HM Core requirement and CSCI060 HM coursework.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: CSCI049 HM Special Topics in Computer Science
+----------------------------------------
+Credit(s): 1.5-3.0
+Instructor(s): Staff
+Offered: Fall & Spring
+Description: Computer Science seminar on a special topic of general interest to the broader HMC and 5C community. Cannot be taken for Computer Science major elective credit.
+Prerequisite(s): Permission of instructor.
+
+========================================
+
+Course: CSCI060 HM Principles of Computer Science
+----------------------------------------
+Credit(s): 3
+Instructor(s): Boerkoel, Breeden, Ojha, Padmanabhan, Stone, Talvitie, Trushkowsky, Wiederman
+Offered: Fall and Spring
+Description: Introduction to principles of computer science: Information structures, functional programming, object-oriented programming, grammars, logic, correctness, algorithms, complexity analysis, and theoretical limitations. Those who have completed CSCI042 HM cannot take CSCI060 HM.
+Prerequisite(s): CSCI005 HM or CSCI005GR HM
+
+========================================
+
+Course: CSCI070 HM Data Structures and Program Development
+----------------------------------------
+Credit(s): 3
+Instructor(s): Breeden, Chang, Medero, O'Neill, Stone, Talvitie, Trushkowsky
+Offered: Fall and Spring
+Description: Abstract data types including priority queues and dynamic dictionaries and efficient data structures for these data types, including heaps, self-balancing trees, and hash tables. Analysis of data structures including worst-case, average-case and amortized analysis. Storage allocation and reclamation. Secondary storage considerations. Extensive practice building programs for a variety of applications.
+Prerequisite(s): (CSCI060 HM or CSCI042 HM), and at least one mathematics course at the level of calculus or higher; MATH055 HM recommended
+
+========================================
+
+Course: CSCI081 HM Computability and Logic
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bang, Montañez, Ojha, Stone, Wloka
+Offered: Fall and Spring
+Description: An introduction to some of the mathematical foundations of computer science, particularly logic, automata, and computability theory. Develops skill in constructing and writing proofs, and demonstrates the applications of the aforementioned areas to problems of practical significance.
+Prerequisite(s): (MATH055 HM or MATH055  CM/PZ/SC), and (CSCI060 HM or CSCI042 HM), and (MATH019 HM or MATH032 CM/PO/PZ/SC or MATH032S PO or MATH067  PO), and (MATH073 HM or MATH060 CM/PO/PZ/SC)
+
+========================================
+
+Course: CSCI105 HM Computer Systems
+----------------------------------------
+Credit(s): 3
+Instructor(s): O'Neill, Padmanabhan, Stone, Trushkowsky
+Offered: Fall and Spring
+Description: An introduction to computer systems. In particular, the course investigates data representations, machine level representations of programs, processor architecture, program optimizations, the memory hierarchy, exceptional control flow (exceptions, interrupts, processes and Unix signals), performance tuning, caches and virtual memory, system-level I/O, networking, and basic concurrent programming. These concepts are supported by a series of hands-on lab assignments.
+Prerequisite(s): CSCI070 HM
+
+========================================
+
+Course: CSCI111 HM Domain-Specific Languages
+----------------------------------------
+Credit(s): 3
+Instructor(s): Wiedermann
+Description: This course explores how to design a new programming language. In particular, we'll focus on "Domain-Specific Languages"— languages designed for people who want to use a computer to perform a specialized task (e.g., to compose music or query a database or make games). Through readings, discussions, and programming, we'll investigate why and how you would create a domain-specific language. The course also features a project that asks you to propose and design your own domain-specific language.
+Prerequisite(s): CSCI070 HM
+
+========================================
+
+Course: CSCI120 HM Human-Centered Computing Methods
+----------------------------------------
+Credit(s): 3
+Description: This course provides an overview and introduction to human-centered computing methods. It introduces students to tools, techniques, and practices to inform a systematic approach to design research. Students will gain experience using some of the following methods: think alouds, surveys, interviews, storyboarding, and prototyping. By the end of the course, students will have a portfolio to showcase the skills picked up in the class.
+Prerequisite(s): Junior or senior standing and CSCI070 HM
+
+========================================
+
+Course: CSCI121 HM Software Development
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Description: Introduction to the discipline concerned with the design and implementation of software systems. The course presents a historical perspective on software development practice and explores modern, agile techniques for eliciting software requirements, designing and imple­menting software architecture and modules, robust testing practices, and project management. Student teams design, develop, and test a substantial software project.
+Prerequisite(s): CSCI070 HM
+
+========================================
+
+Course: CSCI123 HM Computing Practices, Projects, and People
+----------------------------------------
+Credit(s): 3
+Instructor(s): Kirabo, Schofield, Wloka
+Offered: Fall and Spring
+Description: This course dives into the technical and professional skills necessary to plan, execute, document, and present computational projects beyond a classroom. A central focus of the course is a team-based project to develop a tutorial for an existing software tool or API. A variety of exercises will help explore and build literacy in common tools and workflows in a professional computing environment. Additionally, students will discuss human-human interactions around negotiation, conflict management, peer review of both code and written work, and ethical decision-making.
+Prerequisite(s): CSCI070 HM
+
+========================================
+
+Course: CSCI124 HM Interaction Design
+----------------------------------------
+Credit(s): 3
+Instructor(s): Boerkoel, Kirabo
+Description: This course introduces students to issues in the design, implementation, and evalu­ation of human-computer interfaces, with emphasis on user-centered design and graphical interfaces. In this course, students learn skills that aid them in choosing the right user interaction technique and developing an interface that is well-suited to the people for whom it is designed.
+Prerequisite(s): CSCI042 HM or CSCI060 HM
+
+========================================
+
+Course: CSCI125 HM Computer Networks
+----------------------------------------
+Credit(s): 3
+Instructor(s): Padmanabhan, Stone
+Description: Principles and analysis techniques for internetworking. Analysis of network­ing models and protocols. Presentation of computer communication with emphasis on protocol architecture.
+Prerequisite(s): CSCI105 HM
+
+========================================
+
+Course: CSCI131 HM Programming Languages
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bang, O'Neill, Stone, Wiedermann
+Description: A thorough examination of issues and features in language design and implementation, including how to represent a program as data, how to parse a program, how to implement scope, and how to interpret and compile a program. Additional topics will be selected from: historical and cultural aspects of programming languages; various implementation techniques such type checking, memory management, optimization, concurrency, or those specific to a programming paradigm (e.g., functional or object-oriented); additional topics related to programming languages at the discretion of the instructor.
+Prerequisite(s): CSCI070 HM and CSCI081 HM
+
+========================================
+
+Course: CSCI132 HM Compiler Design
+----------------------------------------
+Credit(s): 3
+Instructor(s): Stone, Wiedermann
+Description: The design and implementation of compilers. Topics include elegant theoretical results underlying compilation techniques, practical issues in efficient implementation of program­ming languages, and bit-level interactions with operating systems and computer architec­tures. Over the course of the semester, students build a working compiler.
+Prerequisite(s): CSCI105 HM and CSCI131 HM
+
+========================================
+
+Course: CSCI133 HM Database Systems
+----------------------------------------
+Credit(s): 3
+Instructor(s): Trushkowsky
+Description: Fundamental models of databases: entity-relationship, relational, object-oriented. Relational algebra and calculus, query languages. Data storage, caching, indexing, and sorting. Locking protocols and other issues in concurrent and distributed data­bases.
+Prerequisite(s): CSCI070 HM; CSCI081 HM recommended
+
+========================================
+
+Course: CSCI134 HM Operating Systems: Design and Implementation
+----------------------------------------
+Credit(s): 3
+Instructor(s): O'Neill, Padmanabhan, Stone, Staff
+Description: Design and implementation of operating systems, including processes, memory management, synchronization, scheduling, protection, file systems, and I/O. These concepts are used to illustrate wider concepts in the design of other large software systems, including simplicity; efficiency; event-driven programming; abstraction design; client-server architec­ture; mechanism vs. policy; orthogonality; naming and binding; static vs. dynamic, space vs. time, and other trade-offs; optimization; caching; and managing large code bases. Group projects provide experience in working with and extending a real operating system.
+Prerequisite(s): CSCI105 HM
+
+========================================
+
+Course: CSCI137 HM File Systems
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Description: Computer storage and file systems. Characteristics of nonvolatile storage, including magnetic disks and solid-state memories. RAID storage. Data structures used in file systems. Performance, reliability, privacy, replication, and backup. A major portion of the course is devoted to readings selected from current research in the field.
+Prerequisite(s): CSCI105 HM
+
+========================================
+
+Course: CSCI140 HM Algorithms
+----------------------------------------
+Credit(s): 3
+Instructor(s): Boerkoel, Montañez, Randolph, Schofield, Stone
+Offered: Fall and Spring
+Description: Algorithm design, analysis, and correctness. Design techniques including divide-and-conquer and dynamic programming. Analysis techniques including solutions to recurrence relations and amortization. Correctness techniques including invariants and inductive proofs. Applications including sorting and searching, graph theoretic problems such as shortest path and network flow, and topics selected from arithmetic circuits, parallel algorithms, computational geometry, and oth­ers. An introduction to computational complexity, NP-completeness, and approximation algorithms. Proficiency with programming is expected as some assignments require algorithm implementation. (Crosslisted as MATH168 HM)
+Prerequisite(s): ((CSCI070 HM and (MATH055 HM/CM/PZ/SC) and (MATH019 HM or MATH032  CM/PO/PZ/SC or MATH032S PO or MATH067 PO) and (MATH073 HM or MATH060  CM/PO/PZ/SC or MATH060C CM)) or ((CSCI060 HM or CSCI042 HM) and MATH131 HM)) or (CSCI062 PO and CSCI054  PO). CSCI081 HM is recommended.
+
+========================================
+
+Course: CSCI142 HM Complexity Theory
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Description: Brief review of computability theory through Rice's Theorem and the Recursion Theorem followed by a rigorous treatment of complexity theory. The complexity classes P, NP, and the Cook-Levin Theorem. Approximability of NP-complete problems. The polynomial hierarchy, PSPACE-completeness, L and NL-completeness, #P-completeness. IP and Zero-knowledge proofs. Randomized and parallel complexity classes. The speedup, hierarchy, and gap theorems. (Crosslisted as MATH167 HM)
+Prerequisite(s): CSCI081 HM
+
+========================================
+
+Course: CSCI144 HM Scientific Computing
+----------------------------------------
+Credit(s): 3
+Instructor(s): Bernoff (Mathematics), de Pillis (Mathematics), Yong (Mathematics)
+Description: Computational techniques applied to problems in the sciences and engineering. Modeling of physical problems, computer implementation, analysis of results; use of mathematical software; numerical methods chosen from: solutions of linear and nonlinear algebraic equations, solutions of ordinary and partial differential equations, finite elements, linear programming, optimization algorithms, and fast Fourier transforms. (Crosslisted as MATH164 HM)
+Prerequisite(s): MATH073 HM, MATH082 HM, and (CSCI060 HM or CSCI042 HM)
+
+========================================
+
+Course: CSCI145 HM Advanced Topics in Algorithms
+----------------------------------------
+Credit(s): 3
+Instructor(s): Randolph
+Description: The objective of this course is to explore sophisticated algorithm design and analysis techniques that are generally not taught in a first algorithms course. The course addresses advanced strategies used to solve hard problems in practice, including the use of randomness, the design of approximation schemes, and the analysis of algorithms in terms of problem-specific parameters, memory use, and query complexity. Other topics we may consider include quantum algorithms, sketching and streaming algorithms for massive data settings, exponential time algorithms, and complexity theory.
+Prerequisite(s): CSCI140 HM or MATH168 HM
+
+========================================
+
+Course: CSCI151 HM Artificial Intelligence
+----------------------------------------
+Credit(s): 3
+Instructor(s): Boerkoel, Talvitie
+Description: This course presents a general introduction to the field of Artificial Intelligence. It examines the question: What does (will) it take for computers to perform human tasks? It presents a broad introduction to topics such as knowledge representation, search, learning and reasoning under uncertainty. For each topic, it examines real-world applications of core techniques to problems which may include game playing, text classification and visual pattern recognition.
+Prerequisite(s): CSCI070 HM and (MATH056 HM or MATH062 HM or BIOL154 HM or MATH151 CM/PO/PZ/SC)
+
+========================================
+
+Course: CSCI152 HM Neural Networks
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Description: Modeling, simulation, and analysis of artificial neural networks and their relation to biological networks. Design and optimization of discrete and continuous neural networks. Back propagation and other gradient descent methods. Hopfield and Boltzmann networks. Unsupervised learning. Self-organizing feature maps. Applications chosen from function approximation, signal processing, control, computer graphics, pattern recognition, time-series analysis. Relationship to fuzzy logic, genetic algorithms, and artificial life.
+Prerequisite(s): CSCI070 HM and MATH073 HM and (MATH056 HM or MATH062 HM or BIOL154 HM or MATH151 CM/PO/PZ/SC)
+
+========================================
+
+Course: CSCI153 HM Computer Vision
+----------------------------------------
+Credit(s): 3
+Instructor(s): Wloka
+Description: Computational algorithms for visual perception. Students will develop applications that acquire, process and interpret still images and image streams. The course will cover representations of color, shading, texture and shape along with stereo and motion analysis, object recognition and approaches for three-dimensional representation. Applications include robotics, human perception and the use of large image databases.
+Prerequisite(s): CSCI070 HM
+
+========================================
+
+Course: CSCI155 HM Computer Graphics
+----------------------------------------
+Credit(s): 3
+Instructor(s): Breeden
+Description: This course is an introduction to the major concepts in modern computer graphics. Students will become familiar with the technical challenges posed by the capture, display, and generation of digital images. Important concepts such as the role of specialized hardware, trade-offs in physical realism and rendering time, and the critical reading and analysis of graphics literature will be introduced.
+Prerequisite(s): CSCI070 HM, MATH073 HM, and (MATH056 HM or MATH062 HM or BIOL154 HM or MATH151 CM/PO/PZ/SC)
+
+========================================
+
+Course: CSCI158 HM Machine Learning
+----------------------------------------
+Credit(s): 3
+Instructor(s): Montañez, Talvite
+Description: Machine learning is concerned with the study and development of systems that learn patterns in data. This course introduces the most common problems in the field and the techniques used to tackle these problems, with a focus on supervised and unsupervised learning. Concepts include mathematical foundations and algorithmic approaches.
+Prerequisite(s): CSCI070 HM, MATH073 HM, and (MATH056 HM or MATH062 HM or BIOL154 HM or MATH151 CM/PO/PZ/SC); CSCI151 HM recommended
+
+========================================
+
+Course: CSCI159 HM Natural Language Processing
+----------------------------------------
+Credit(s): 3
+Instructor(s): Medero, Schofield
+Description: An introduction to the fundamental concepts and ideas in natural language processing, sometimes called computational linguistics. The goals of the field range from text translation and understanding to enabling humans to converse with robots. We will study language processing starting from the word level to syntactic structure to the semantic meaning of text. Approaches include structured and statistical methods, as well as exploration of current natural language research. Students will build and modify systems and will use large existing corpora for validating their systems.
+Prerequisite(s): CSCI081 HM and (MATH056 HM or MATH062 HM or BIOL154 HM or MATH151 CM/PO/PZ/SC)
+
+========================================
+
+Course: CSCI181 HM Computer Science Seminar
+----------------------------------------
+Credit(s): 1-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Advanced topics of current interest in computer science.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: CSCI183 HM Computer Science Clinic I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall
+Description: The Clinic Program brings together teams of students to work on a research problem sponsored by business, industry, or government. Teams work closely with a faculty advisor and a liaison provided by the sponsoring organization to solve complex real-world problems. Students are expected to present their work orally and to produce a final report conforming to professional publication standards. CSCI183  HM and CSCI184 HM must be taken consecutively in the same academic year to count toward the major.
+Prerequisite(s): CSCI123 HM  and senior standing; or permission of the Computer Science Clinic director
+
+========================================
+
+Course: CSCI184 HM Computer Science Clinic II
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Spring
+Description: The Clinic Program brings together teams of students to work on a research problem sponsored by business, industry, or government. Teams work closely with a faculty advisor and a liaison provided by the sponsoring organization to solve complex real-world problems. Students are expected to present their work orally and to produce a final report conforming to professional publication standards. CSCI183 HM and CSCI184  HM must be taken consecutively in the same academic year to count toward the major.
+Prerequisite(s): CSCI183 HM, and senior standing; or permission of the Computer Science Clinic director
+
+========================================
+
+Course: CSCI186 HM Computer Science Research and Independent Study
+----------------------------------------
+Credit(s): 0.5-3
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: A research or development project under computer science faculty supervision. No more than 3 units can count toward major elective credit.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: CSCI195 HM Computer Science Colloquium
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Oral presentations and discussions of selected topics, including recent developments in computer science. Participants include computer science majors, Clinic participants, faculty members, and visiting speakers. No more than 2.0 credits can be earned for departmental seminars/col­loquia. All majors welcome.
+Grading Type: Pass/No-Pass
+Prerequisite(s): Juniors and seniors only
+
+========================================
+
+Course: CSMT181 HM Special Topics in Computer Science and Mathematics
+----------------------------------------
+Credit(s): 1.5-3
+Instructor(s): Staff
+Description: A course devoted to exploring topics of current interest. Topics announced prior to registration.
+
+========================================
+
+Course: CSMT183 HM Computer Science and Mathematics Clinic I
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff
+Offered: Fall
+Description: Team project in joint computer science and mathematics, with corporate affiliation. CSMT183 HM and CSMT184 HM must be taken consecutively to count toward the major.
+Prerequisite(s): Senior standing as a Joint CS/Math major, or permission of the Computer Science and Mathematics Clinic directors.
+
+========================================
+
+Course: CSMT184 HM Computer Science and Mathematics Clinic II
+----------------------------------------
+Credit(s): 3
+Instructor(s): Staff.
+Offered: Spring
+Description: Team project in joint computer science and mathematics, with corporate affiliation. CSMT183 HM and CSMT184  HM must be taken consecutively to count toward the major.
+Prerequisite(s): CSMT183 HM
+
+========================================
+
+Course: MCBI117 HM Game Theory and the Evolution of Cooperation
+----------------------------------------
+Credit(s): 3
+Instructor(s): Donaldson-Matasci (Biology)
+Description: An introduction to game theory, a branch of mathematics that studies strategic interactions between individuals, with applications in fields such as biology, economics and political science. The course will introduce classical game theory, representations of games and Nash equilibria. The second part of the course will focus on evolutionary game theory, equilibrium concepts, and the evolution of cooperation.
+Prerequisite(s): Permission of instructor
+
+========================================
+
+Course: MCBI118A HM Introduction to Mathematical Biology
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Adolph (Biology), de Pillis (Mathematics), Donaldson-Matasci (Biology)
+Offered: Spring
+Description: An introduction to the field of mathematical biology. Continuous and discrete mathematical models of biological processes and their analytical and computational solutions. Examples may include models in epidemiology, ecology, cancer biology, systems biology, molecular evolution, and phylogenetics.
+Prerequisite(s): MATH073 HM, MATH082 HM, and BIOL046 HM
+
+========================================
+
+Course: MCBI118B HM Introduction to Computational Biology
+----------------------------------------
+Credit(s): 1.5
+Instructor(s): Bush (Biology), Donaldson-Matasci (Biology)
+Offered: Spring
+Description: An introduction to the field of computational biology. Algorithms for phylogenetic inference and computational methods for solving problems in molecular evolution and population genetics.
+Prerequisite(s): CSCI005 HM and BIOL046 HM
+
+========================================
+
+Course: MCBI199 HM Joint Colloquium for the Mathematical and Computational Biology Major
+----------------------------------------
+Credit(s): 0.5
+Instructor(s): Staff
+Offered: Fall and Spring
+Description: Students registered for joint colloquium must attend a fixed number of colloquium talks during the semester in any field(s) related to their interests. The talks may be at any members of The Claremont Colleges or a nearby university and may be in any of a wide array of fields including biology, mathematics, computer science and other science and engineering disciplines including bioengineering, cognitive science, neuroscience, biophysics, and linguistics. Students enrolled in the joint colloquium are required to submit a short synopsis of each talk that they attend. No more than 2.0 credits can be earned for departmental seminars/col­loquia.
+Grading Type: Pass/No-Pass
+
+========================================
+
