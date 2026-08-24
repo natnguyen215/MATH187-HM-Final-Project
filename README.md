@@ -1,4 +1,4 @@
-# Optimal Degree Path Planning
+# MATH187-HM-Final-Project: An Optimal Course Plannar
 
 This repository contains a **class project** created in 2025 by Nathan Nguyen, Cole Plepel, and Joshua Zhong. It explores four-year course planning at Harvey Mudd College as a mixed-integer optimization problem.
 
